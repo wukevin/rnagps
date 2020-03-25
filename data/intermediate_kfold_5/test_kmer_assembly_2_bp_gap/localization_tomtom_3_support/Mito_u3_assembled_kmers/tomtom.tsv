@@ -1,0 +1,17 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+Mito_u3_assembled_kmers_motif_6	RNCMPT00018	-4	4.04179e-06	0.000412263	0.000391932	7	CGCGTGCGCGCCCTCCGATT	TGCGCGC	+
+Mito_u3_assembled_kmers_motif_6	RNCMPT00056	-3	0.000296354	0.0302281	0.013066	7	CGCGTGCGCGCCCTCCGATT	GCGCGCG	+
+Mito_u3_assembled_kmers_motif_6	RNCMPT00045	-5	0.000404229	0.0412314	0.013066	7	CGCGTGCGCGCCCTCCGATT	GCGCGCG	+
+Mito_u3_assembled_kmers_motif_9	RNCMPT00026	-2	0.000565362	0.0576669	0.0568203	7	CCCCCACCCCTCC	CCAACCC	+
+Mito_u3_assembled_kmers_motif_9	RNCMPT00044	-7	0.0011414	0.116422	0.0573566	6	CCCCCACCCCTCC	CCTTCCC	+
+Mito_u3_assembled_kmers_motif_15	RNCMPT00088	0	0.000760871	0.0776088	0.0582003	7	AGAGAGGAGAA	AGAGAGG	+
+Mito_u3_assembled_kmers_motif_15	RNCMPT00036	-4	0.00150624	0.153636	0.0582003	7	AGAGAGGAGAA	CGGAGAA	+
+Mito_u3_assembled_kmers_motif_15	RNCMPT00074	-4	0.00201021	0.205041	0.0582003	7	AGAGAGGAGAA	AGGAGCA	+
+Mito_u3_assembled_kmers_motif_30	RNCMPT00136	0	7.55221e-05	0.00770325	0.00693987	7	TTGGTTTC	TTGGTTT	+
+Mito_u3_assembled_kmers_motif_30	RNCMPT00086	0	0.000735757	0.0750472	0.0317373	7	TTGGTTTC	TTTGTTT	+
+Mito_u3_assembled_kmers_motif_30	RNCMPT00112	0	0.00107984	0.110144	0.0317373	7	TTGGTTTC	TTTGTTT	+
+Mito_u3_assembled_kmers_motif_30	RNCMPT00117	0	0.00138151	0.140914	0.0317373	7	TTGGTTTC	TTTGTTT	+
+
+# Tomtom (Motif Comparison Tool): Version 5.0.2 compiled on Nov  7 2018 at 13:16:04
+# The format of this file is described at http://meme-suite.org/doc/tomtom-output-format.html.
+# tomtom -no-ssc -oc /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnagps/data/intermediate_kfold_5/test_kmer_assembly_2_bp_gap/localization_tomtom_3_support/Mito_u3_assembled_kmers -verbosity 1 -norc -min-overlap 5 -dist pearson -thresh 0.1 /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnagps/data/intermediate_kfold_5/test_kmer_assembly_2_bp_gap/localization_tomtom_3_support/Mito_u3_assembled_kmers.meme /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnagps/data/meme/Ray2013_rbp_Homo_sapiens.dna_encoded.meme

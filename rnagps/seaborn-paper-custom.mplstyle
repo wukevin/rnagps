@@ -1,0 +1,24 @@
+# Seaborn paper context, modified
+figure.figsize: 6.4, 4.4
+axes.labelsize: 12
+axes.titlesize: 14
+legend.fontsize: 10
+
+grid.linewidth: 0.8
+lines.linewidth: 1.4
+patch.linewidth: 0.24
+lines.markersize: 5.6
+lines.markeredgewidth: 0
+
+xtick.major.width: 0.8
+ytick.major.width: 0.8
+xtick.minor.width: 0.4
+ytick.minor.width: 0.4
+
+xtick.major.pad: 5.6
+ytick.major.pad: 5.6
+
+xtick.labelsize: 11
+ytick.labelsize: 11
+figure.dpi: 1200
+

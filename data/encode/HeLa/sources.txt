@@ -1,0 +1,3 @@
+Overall - https://www.encodeproject.org/search/?type=Experiment&status=released&assay_slims=Transcription&searchTerm=fraction&assay_title=polyA+plus+RNA-seq&biosample_ontology.term_name=HeLa-S3
+Nuclear - https://www.encodeproject.org/experiments/ENCSR000CPQ/
+Cytosolic - https://www.encodeproject.org/experiments/ENCSR000CPP/

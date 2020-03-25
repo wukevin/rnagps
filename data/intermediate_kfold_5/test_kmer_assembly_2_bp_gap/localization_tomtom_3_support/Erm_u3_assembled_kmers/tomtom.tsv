@@ -1,0 +1,16 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+Erm_u3_assembled_kmers_motif_7	RNCMPT00176	0	0.000277846	0.0283403	0.0167148	7	TAGTTAGGA	TAGTTAG	+
+Erm_u3_assembled_kmers_motif_7	RNCMPT00041	0	0.000335984	0.0342704	0.0167148	7	TAGTTAGGA	TAGTTAG	+
+Erm_u3_assembled_kmers_motif_7	RNCMPT00013	0	0.00196222	0.200147	0.0650788	7	TAGTTAGGA	TAGGTAG	+
+Erm_u3_assembled_kmers_motif_8	RNCMPT00160	-1	0.000818008	0.0834368	0.0709256	7	AGGGTGGGC	GGGAGGG	+
+Erm_u3_assembled_kmers_motif_9	RNCMPT00152	-1	0.000184237	0.0187922	0.0117599	7	ATATATACA	TATATAC	+
+Erm_u3_assembled_kmers_motif_9	RNCMPT00057	0	0.000240149	0.0244952	0.0117599	7	ATATATACA	ATATATA	+
+Erm_u3_assembled_kmers_motif_9	RNCMPT00173	-1	0.000708832	0.0723008	0.0231406	7	ATATATACA	TATATAG	+
+Erm_u3_assembled_kmers_motif_12	RNCMPT00044	-2	0.00071285	0.0727108	0.0693584	6	AACCCTCC	CCTTCCC	+
+Erm_u3_assembled_kmers_motif_31	RNCMPT00185	0	0.000455965	0.0465084	0.0442007	7	AATAAAA	GATAAAA	+
+Erm_u3_assembled_kmers_motif_31	RNCMPT00169	-1	0.00133059	0.13572	0.0644929	6	AATAAAA	ATAAAAG	+
+Erm_u3_assembled_kmers_motif_31	RNCMPT00043	0	0.00221016	0.225436	0.0714167	7	AATAAAA	AAAAAAA	+
+
+# Tomtom (Motif Comparison Tool): Version 5.0.2 compiled on Nov  7 2018 at 13:16:04
+# The format of this file is described at http://meme-suite.org/doc/tomtom-output-format.html.
+# tomtom -no-ssc -oc /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnagps/data/intermediate_kfold_5/test_kmer_assembly_2_bp_gap/localization_tomtom_3_support/Erm_u3_assembled_kmers -verbosity 1 -norc -min-overlap 5 -dist pearson -thresh 0.1 /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnagps/data/intermediate_kfold_5/test_kmer_assembly_2_bp_gap/localization_tomtom_3_support/Erm_u3_assembled_kmers.meme /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnagps/data/meme/Ray2013_rbp_Homo_sapiens.dna_encoded.meme

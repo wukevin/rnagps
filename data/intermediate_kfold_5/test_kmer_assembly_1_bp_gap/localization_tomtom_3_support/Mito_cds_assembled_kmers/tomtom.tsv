@@ -1,0 +1,18 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+Mito_cds_assembled_kmers_motif_0	RNCMPT00052	-5	0.00129871	0.132469	0.0971851	7	AACGTGCGCCGGCACTCGGGG	GCGCGGG	+
+Mito_cds_assembled_kmers_motif_0	RNCMPT00113	-5	0.00197439	0.201388	0.0971851	7	AACGTGCGCCGGCACTCGGGG	GCGCGGG	+
+Mito_cds_assembled_kmers_motif_7	RNCMPT00044	0	0.000209641	0.0213834	0.0203158	7	CTTTCCCCAT	CCTTCCC	+
+Mito_cds_assembled_kmers_motif_7	RNCMPT00186	1	0.00120681	0.123094	0.0584741	6	CTTTCCCCAT	CCTTTCC	+
+Mito_cds_assembled_kmers_motif_7	RNCMPT00268	0	0.00189208	0.192992	0.0611186	7	CTTTCCCCAT	CTTTTCT	+
+Mito_cds_assembled_kmers_motif_7	RNCMPT00269	1	0.00257613	0.262765	0.0624113	6	CTTTCCCCAT	ACTTTCT	+
+Mito_cds_assembled_kmers_motif_20	RNCMPT00085	1	0.000241628	0.0246461	0.0233129	6	CAGCGCG	GCAGCGC	+
+Mito_cds_assembled_kmers_motif_20	RNCMPT00045	0	0.00158959	0.162138	0.0588979	7	CAGCGCG	GCGCGCG	+
+Mito_cds_assembled_kmers_motif_20	RNCMPT00052	-2	0.00233249	0.237914	0.0588979	5	CAGCGCG	GCGCGGG	+
+Mito_cds_assembled_kmers_motif_20	RNCMPT00113	-2	0.00287825	0.293582	0.0588979	5	CAGCGCG	GCGCGGG	+
+Mito_cds_assembled_kmers_motif_20	RNCMPT00018	-1	0.00324093	0.330575	0.0588979	6	CAGCGCG	TGCGCGC	+
+Mito_cds_assembled_kmers_motif_20	RNCMPT00056	-2	0.00366271	0.373597	0.0588979	5	CAGCGCG	GCGCGCG	+
+Mito_cds_assembled_kmers_motif_22	RNCMPT00085	0	0.000686421	0.070015	0.0679196	7	GCAGCGG	GCAGCGC	+
+
+# Tomtom (Motif Comparison Tool): Version 5.0.2 compiled on Nov  7 2018 at 13:16:04
+# The format of this file is described at http://meme-suite.org/doc/tomtom-output-format.html.
+# tomtom -no-ssc -oc /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/intermediate_kfold_5/test_kmer_assembly_1_bp_gap/localization_tomtom_3_support/Mito_cds_assembled_kmers -verbosity 1 -norc -min-overlap 5 -dist pearson -thresh 0.1 /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/intermediate_kfold_5/test_kmer_assembly_1_bp_gap/localization_tomtom_3_support/Mito_cds_assembled_kmers.meme /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/meme/Ray2013_rbp_Homo_sapiens.dna_encoded.meme

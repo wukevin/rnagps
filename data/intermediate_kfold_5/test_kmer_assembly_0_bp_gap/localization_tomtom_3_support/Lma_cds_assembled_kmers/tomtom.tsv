@@ -1,0 +1,17 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+Lma_cds_assembled_kmers_motif_4	RNCMPT00052	-1	1.84434e-05	0.00188123	0.00130158	7	GGCGCGGGC	GCGCGGG	+
+Lma_cds_assembled_kmers_motif_4	RNCMPT00113	-1	2.69906e-05	0.00275305	0.00130158	7	GGCGCGGGC	GCGCGGG	+
+Lma_cds_assembled_kmers_motif_4	RNCMPT00056	-1	0.000481892	0.049153	0.0154923	7	GGCGCGGGC	GCGCGCG	+
+Lma_cds_assembled_kmers_motif_4	RNCMPT00045	-1	0.00187904	0.191662	0.0453068	7	GGCGCGGGC	GCGCGCG	+
+Lma_cds_assembled_kmers_motif_4	RNCMPT00018	-2	0.00499677	0.50967	0.0963843	7	GGCGCGGGC	TGCGCGC	+
+Lma_cds_assembled_kmers_motif_9	RNCMPT00037	0	0.000616267	0.0628592	0.0595494	7	CATCTCG	AATCTTG	+
+Lma_cds_assembled_kmers_motif_15	RNCMPT00063	0	0.000222083	0.0226524	0.0209464	7	GCGGGCC	GCTGGAC	+
+Lma_cds_assembled_kmers_motif_15	RNCMPT00045	0	0.00144068	0.146949	0.0577953	7	GCGGGCC	GCGCGCG	+
+Lma_cds_assembled_kmers_motif_15	RNCMPT00056	0	0.00183831	0.187508	0.0577953	7	GCGGGCC	GCGCGCG	+
+Lma_cds_assembled_kmers_motif_15	RNCMPT00018	1	0.0025319	0.258254	0.059701	6	GCGGGCC	TGCGCGC	+
+Lma_cds_assembled_kmers_motif_15	RNCMPT00052	2	0.00542482	0.553331	0.0911787	5	GCGGGCC	GCGCGGG	+
+Lma_cds_assembled_kmers_motif_15	RNCMPT00113	2	0.00580028	0.591629	0.0911787	5	GCGGGCC	GCGCGGG	+
+
+# Tomtom (Motif Comparison Tool): Version 5.0.2 compiled on Nov  7 2018 at 13:16:04
+# The format of this file is described at http://meme-suite.org/doc/tomtom-output-format.html.
+# tomtom -no-ssc -oc /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnagps/data/intermediate_kfold_5/test_kmer_assembly_0_bp_gap/localization_tomtom_3_support/Lma_cds_assembled_kmers -verbosity 1 -norc -min-overlap 5 -dist pearson -thresh 0.1 /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnagps/data/intermediate_kfold_5/test_kmer_assembly_0_bp_gap/localization_tomtom_3_support/Lma_cds_assembled_kmers.meme /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnagps/data/meme/Ray2013_rbp_Homo_sapiens.dna_encoded.meme

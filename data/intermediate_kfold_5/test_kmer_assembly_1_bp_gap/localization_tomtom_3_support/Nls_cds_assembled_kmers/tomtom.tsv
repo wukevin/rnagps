@@ -1,0 +1,17 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+Nls_cds_assembled_kmers_motif_0	RNCMPT00075	0	0.00050362	0.0513693	0.0476544	7	CGATACCCGCG	CGATACT	+
+Nls_cds_assembled_kmers_motif_7	RNCMPT00170	-1	0.000200488	0.0204498	0.0202513	7	GAATCCAA	AATCCAG	+
+Nls_cds_assembled_kmers_motif_13	RNCMPT00269	0	8.61464e-05	0.00878693	0.00596041	7	ATTTTCT	ACTTTCT	+
+Nls_cds_assembled_kmers_motif_13	RNCMPT00268	0	0.000130467	0.0133076	0.00596041	7	ATTTTCT	CTTTTCT	+
+Nls_cds_assembled_kmers_motif_13	RNCMPT00025	0	0.000486439	0.0496168	0.0111116	7	ATTTTCT	ATTTTTT	+
+Nls_cds_assembled_kmers_motif_13	RNCMPT00167	0	0.000486439	0.0496168	0.0111116	7	ATTTTCT	ATTTTTT	+
+Nls_cds_assembled_kmers_motif_13	RNCMPT00159	-1	0.00356438	0.363567	0.0450408	6	ATTTTCT	TTTTTTG	+
+Nls_cds_assembled_kmers_motif_13	RNCMPT00079	-1	0.00377633	0.385186	0.0450408	6	ATTTTCT	TTTTTTC	+
+Nls_cds_assembled_kmers_motif_13	RNCMPT00165	-1	0.00400089	0.408091	0.0450408	6	ATTTTCT	TTTTTTC	+
+Nls_cds_assembled_kmers_motif_13	RNCMPT00274	-1	0.00400089	0.408091	0.0450408	6	ATTTTCT	TTTTTTT	+
+Nls_cds_assembled_kmers_motif_13	RNCMPT00077	-1	0.00443652	0.452525	0.0450408	6	ATTTTCT	TTTTTTG	+
+Nls_cds_assembled_kmers_motif_13	RNCMPT00158	0	0.00959501	0.978691	0.0876701	7	ATTTTCT	CTTTTTT	+
+
+# Tomtom (Motif Comparison Tool): Version 5.0.2 compiled on Nov  7 2018 at 13:16:04
+# The format of this file is described at http://meme-suite.org/doc/tomtom-output-format.html.
+# tomtom -no-ssc -oc /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/intermediate_kfold_5/test_kmer_assembly_1_bp_gap/localization_tomtom_3_support/Nls_cds_assembled_kmers -verbosity 1 -norc -min-overlap 5 -dist pearson -thresh 0.1 /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/intermediate_kfold_5/test_kmer_assembly_1_bp_gap/localization_tomtom_3_support/Nls_cds_assembled_kmers.meme /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/meme/Ray2013_rbp_Homo_sapiens.dna_encoded.meme

@@ -1,0 +1,24 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+Nes_cds_assembled_kmers_motif_1	RNCMPT00044	0	0.000742107	0.0756949	0.0753294	7	CCTCCTCCT	CCTTCCC	+
+Nes_cds_assembled_kmers_motif_5	RNCMPT00274	0	0.000517258	0.0527603	0.0346337	7	TTTCTTTA	TTTTTTT	+
+Nes_cds_assembled_kmers_motif_5	RNCMPT00112	0	0.00136096	0.138818	0.0346337	7	TTTCTTTA	TTTGTTT	+
+Nes_cds_assembled_kmers_motif_5	RNCMPT00117	0	0.00144652	0.147545	0.0346337	7	TTTCTTTA	TTTGTTT	+
+Nes_cds_assembled_kmers_motif_5	RNCMPT00086	0	0.00160538	0.163748	0.0346337	7	TTTCTTTA	TTTGTTT	+
+Nes_cds_assembled_kmers_motif_5	RNCMPT00165	0	0.0035268	0.359734	0.0373559	7	TTTCTTTA	TTTTTTC	+
+Nes_cds_assembled_kmers_motif_5	RNCMPT00077	0	0.00363577	0.370849	0.0373559	7	TTTCTTTA	TTTTTTG	+
+Nes_cds_assembled_kmers_motif_5	RNCMPT00032	0	0.00387213	0.394957	0.0373559	7	TTTCTTTA	TTATTTT	+
+Nes_cds_assembled_kmers_motif_5	RNCMPT00159	0	0.00442781	0.451637	0.0373559	7	TTTCTTTA	TTTTTTG	+
+Nes_cds_assembled_kmers_motif_5	RNCMPT00053	0	0.00459042	0.468223	0.0373559	7	TTTCTTTA	ATACATT	+
+Nes_cds_assembled_kmers_motif_5	RNCMPT00158	0	0.00459042	0.468223	0.0373559	7	TTTCTTTA	CTTTTTT	+
+Nes_cds_assembled_kmers_motif_5	RNCMPT00167	0	0.00497241	0.507186	0.0373559	7	TTTCTTTA	ATTTTTT	+
+Nes_cds_assembled_kmers_motif_5	RNCMPT00079	0	0.00519466	0.529855	0.0373559	7	TTTCTTTA	TTTTTTC	+
+Nes_cds_assembled_kmers_motif_5	RNCMPT00025	0	0.00612397	0.624645	0.0406511	7	TTTCTTTA	ATTTTTT	+
+Nes_cds_assembled_kmers_motif_5	RNCMPT00136	0	0.00694655	0.708548	0.0428178	7	TTTCTTTA	TTGGTTT	+
+Nes_cds_assembled_kmers_motif_5	RNCMPT00012	0	0.00852271	0.869316	0.0459664	7	TTTCTTTA	CTTTTTT	+
+Nes_cds_assembled_kmers_motif_5	RNCMPT00269	2	0.00852271	0.869316	0.0459664	5	TTTCTTTA	ACTTTCT	+
+Nes_cds_assembled_kmers_motif_5	RNCMPT00268	2	0.0104161	1.06244	0.0528737	5	TTTCTTTA	CTTTTCT	+
+Nes_cds_assembled_kmers_motif_6	RNCMPT00268	0	0.000782979	0.0798638	0.0758763	7	CTTCTCC	CTTTTCT	+
+
+# Tomtom (Motif Comparison Tool): Version 5.0.2 compiled on Nov  7 2018 at 13:16:04
+# The format of this file is described at http://meme-suite.org/doc/tomtom-output-format.html.
+# tomtom -no-ssc -oc /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/intermediate_kfold_5/test_kmer_assembly_1_bp_gap/localization_tomtom_3_support/Nes_cds_assembled_kmers -verbosity 1 -norc -min-overlap 5 -dist pearson -thresh 0.1 /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/intermediate_kfold_5/test_kmer_assembly_1_bp_gap/localization_tomtom_3_support/Nes_cds_assembled_kmers.meme /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/meme/Ray2013_rbp_Homo_sapiens.dna_encoded.meme

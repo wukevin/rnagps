@@ -1,0 +1,56 @@
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+tp_14_u5_assembled_kmer_3      -------------T--------CAAAC--CGTG------	10
+tp_4_u5_assembled_kmer_3       ------------AG--------CAAAC------------	7
+tp_14_u5_assembled_kmer_2      ---------ATCTT--------CAAA-------------	9
+tp_14_u5_assembled_kmer_0      -----CCGGATCTT--------CAAAC--C---------	15
+tp_14_u5_assembled_kmer_1      -------GGATCTT--------C----------------	8
+tp_10_u5_assembled_kmer_2      ------------------------CCTCGCGTC---ACT	12
+tp_10_u5_assembled_kmer_0      -------------------CCCCGCCCCGCGC-------	13
+tp_10_u5_assembled_kmer_1      -----------------------GCCCCGCGC-------	9
+tp_11_u5_assembled_kmer_0      --------GTAGCAGCA--GCGC----------------	13
+tp_11_u5_assembled_kmer_1      ------------CAGCA--GCG-----------------	8
+tp_16_u5_assembled_kmer_5      --------GA-GCGGAA--GTCCAGC-------------	15
+tp_16_u5_assembled_kmer_6      -----------GCGGAA--GTC-----------------	9
+tp_14_u5_assembled_kmer_5      --------GCGGCGGCT--A-------------------	10
+tp_12_u5_assembled_kmer_0      -----------GCG-----CAGCCA--------------	9
+tp_8_u5_assembled_kmer_7       -----------GCG-----AGGCAAG-------------	10
+tp_8_u5_assembled_kmer_5       -------------GGAG--TAGGAGG-------------	11
+tp_8_u5_assembled_kmer_4       -------------------GCGGAGT-------------	7
+tp_4_u5_assembled_kmer_0       -------AAAGGCGGG-----------------------	9
+tp_8_u5_assembled_kmer_3       ---------AGGCGGCA--GCGGA---------------	13
+tp_3_u5_assembled_kmer_0       -------TGAGGCGGCC--AAG-----------------	13
+tp_8_u5_assembled_kmer_2       -------GGAGGCGGCA--GCG-----------------	13
+tp_8_u5_assembled_kmer_6       -------GGAGGCG-------------------------	7
+tp_16_u5_assembled_kmer_3      ---------------GC--GAGCGACG------------	10
+tp_16_u5_assembled_kmer_0      -------------------CGGCGAC---G---------	8
+tp_11_u5_assembled_kmer_2      -------------------CGCCGGGTCCCGT-------	13
+tp_18_u5_assembled_kmer_0      ---------------------GCGGTTCC----------	8
+tp_16_u5_assembled_kmer_4      ---------------CC--GAGCGG--------------	8
+tp_9_u5_assembled_kmer_0       ---------------TC--CGGCTCCTCCCGGA---AG-	18
+tp_3_u5_assembled_kmer_1       -----------GCGGCC--AAGCGGCTCCGGGA------	20
+tp_9_u5_assembled_kmer_1       ----------------------CGGCTCC----------	7
+tp_17_u5_assembled_kmer_0      --------------GCT--GGGGTGC-------------	10
+tp_17_u5_assembled_kmer_1      ----------------T--GGGGTGC-------------	8
+tp_5_u5_assembled_kmer_1       -------------------AGACTGCCCT----------	10
+tp_5_u5_assembled_kmer_0       ---------------CT--AGACTGCC------------	10
+tp_4_u5_assembled_kmer_1       --------------GCG--GGACTGCC------------	11
+tp_4_u5_assembled_kmer_2       --------------------GACTGCCA-----------	8
+tp_21_u5_assembled_kmer_0      ----------------G--CGACTG--------------	7
+tp_18_u5_assembled_kmer_1      CCCTCCCTGCTG---------------------------	12
+tp_8_u5_assembled_kmer_1       ---------GACAGGA-----------------------	7
+tp_8_u5_assembled_kmer_0       -------TGCTGAC-------------------------	7
+tp_14_u5_assembled_kmer_4      ---GGAGTGGTGC--------------------------	10
+tp_1_u5_assembled_kmer_0       -----GGAGGGGA--------------------------	8
+tp_10_u5_assembled_kmer_4      ---GCGGTGGTGAGAAC----------------------	14
+tp_10_u5_assembled_kmer_5      -------TGGTGAGAACG---------------------	11
+tp_16_u5_assembled_kmer_1      --------------------------TTCTGACGTAGC-	12
+tp_16_u5_assembled_kmer_2      ------------------------------GACGTAGC-	8
+tp_5_u5_assembled_kmer_2       -------------------------CTCCCGGGCTGGCG	14
+tp_10_u5_assembled_kmer_3      -------------------------CTTCCGGG------	8
+tp_21_u5_assembled_kmer_3      --------------------------TTCCGAGGTC---	10
+tp_10_u5_assembled_kmer_6      -----------GAGAACGAGGCTCACTTCCGT-------	21
+tp_21_u5_assembled_kmer_1      ----------------------CTGCTTCCGAGG-----	12
+tp_21_u5_assembled_kmer_2      ------------------------GCTTCCG--------	7
+                                                                      

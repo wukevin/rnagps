@@ -1,0 +1,33 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+Erm_cds_assembled_kmers_motif_0	RNCMPT00085	-1	0.00088139	0.0899018	0.0861584	7	GGCAGCACT	GCAGCGC	+
+Erm_cds_assembled_kmers_motif_10	RNCMPT00158	0	0.00117882	0.12024	0.0436223	7	CTTCTTC	CTTTTTT	+
+Erm_cds_assembled_kmers_motif_10	RNCMPT00079	0	0.00143365	0.146233	0.0436223	7	CTTCTTC	TTTTTTC	+
+Erm_cds_assembled_kmers_motif_10	RNCMPT00165	0	0.00143365	0.146233	0.0436223	7	CTTCTTC	TTTTTTC	+
+Erm_cds_assembled_kmers_motif_11	RNCMPT00158	0	7.06724e-05	0.00720858	0.00317524	7	CTTTTTC	CTTTTTT	+
+Erm_cds_assembled_kmers_motif_11	RNCMPT00079	0	0.000106333	0.010846	0.00317524	7	CTTTTTC	TTTTTTC	+
+Erm_cds_assembled_kmers_motif_11	RNCMPT00165	0	0.000106333	0.010846	0.00317524	7	CTTTTTC	TTTTTTC	+
+Erm_cds_assembled_kmers_motif_11	RNCMPT00012	0	0.000522389	0.0532837	0.0116993	7	CTTTTTC	CTTTTTT	+
+Erm_cds_assembled_kmers_motif_11	RNCMPT00268	0	0.00112138	0.114381	0.0189237	7	CTTTTTC	CTTTTCT	+
+Erm_cds_assembled_kmers_motif_11	RNCMPT00274	0	0.00166643	0.169976	0.0189237	7	CTTTTTC	TTTTTTT	+
+Erm_cds_assembled_kmers_motif_11	RNCMPT00077	-1	0.00166643	0.169976	0.0189237	6	CTTTTTC	TTTTTTG	+
+Erm_cds_assembled_kmers_motif_11	RNCMPT00025	0	0.00190117	0.19392	0.0189237	7	CTTTTTC	ATTTTTT	+
+Erm_cds_assembled_kmers_motif_11	RNCMPT00269	1	0.00190117	0.19392	0.0189237	6	CTTTTTC	ACTTTCT	+
+Erm_cds_assembled_kmers_motif_11	RNCMPT00167	0	0.00212011	0.216251	0.0189926	7	CTTTTTC	ATTTTTT	+
+Erm_cds_assembled_kmers_motif_11	RNCMPT00159	0	0.00241599	0.246431	0.0196757	7	CTTTTTC	TTTTTTG	+
+Erm_cds_assembled_kmers_motif_13	RNCMPT00079	0	0.00124789	0.127284	0.0481418	7	ATTTTCC	TTTTTTC	+
+Erm_cds_assembled_kmers_motif_13	RNCMPT00269	0	0.00124789	0.127284	0.0481418	7	ATTTTCC	ACTTTCT	+
+Erm_cds_assembled_kmers_motif_13	RNCMPT00268	0	0.00165064	0.168365	0.0481418	7	ATTTTCC	CTTTTCT	+
+Erm_cds_assembled_kmers_motif_13	RNCMPT00165	0	0.00246237	0.251161	0.0481418	7	ATTTTCC	TTTTTTC	+
+Erm_cds_assembled_kmers_motif_13	RNCMPT00025	0	0.00262463	0.267712	0.0481418	7	ATTTTCC	ATTTTTT	+
+Erm_cds_assembled_kmers_motif_13	RNCMPT00167	0	0.00313469	0.319738	0.0481418	7	ATTTTCC	ATTTTTT	+
+Erm_cds_assembled_kmers_motif_23	RNCMPT00026	1	0.000777552	0.0793103	0.0773605	6	CATCCCA	CCAACCC	+
+Erm_cds_assembled_kmers_motif_25	RNCMPT00020	0	8.42522e-05	0.00859372	0.00727632	7	GGACGAG	GGACGGG	+
+Erm_cds_assembled_kmers_motif_25	RNCMPT00016	0	0.000483225	0.049289	0.0208665	7	GGACGAG	GGACAAG	+
+Erm_cds_assembled_kmers_motif_25	RNCMPT00163	0	0.00124724	0.127218	0.0359053	7	GGACGAG	GGAGGAG	+
+Erm_cds_assembled_kmers_motif_25	RNCMPT00108	0	0.00186348	0.190075	0.0402342	7	GGACGAG	GGAGGAG	+
+Erm_cds_assembled_kmers_motif_25	RNCMPT00109	0	0.00302354	0.308401	0.0522247	7	GGACGAG	GGAGGAA	+
+Erm_cds_assembled_kmers_motif_25	RNCMPT00154	0	0.00573049	0.58451	0.0824843	7	GGACGAG	GAAGGAG	+
+
+# Tomtom (Motif Comparison Tool): Version 5.0.2 compiled on Nov  7 2018 at 13:16:04
+# The format of this file is described at http://meme-suite.org/doc/tomtom-output-format.html.
+# tomtom -no-ssc -oc /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/intermediate_kfold_5/test_kmer_assembly_1_bp_gap/localization_tomtom_3_support/Erm_cds_assembled_kmers -verbosity 1 -norc -min-overlap 5 -dist pearson -thresh 0.1 /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/intermediate_kfold_5/test_kmer_assembly_1_bp_gap/localization_tomtom_3_support/Erm_cds_assembled_kmers.meme /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/meme/Ray2013_rbp_Homo_sapiens.dna_encoded.meme

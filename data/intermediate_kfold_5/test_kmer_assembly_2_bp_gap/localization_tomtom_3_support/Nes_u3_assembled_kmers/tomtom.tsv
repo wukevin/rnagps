@@ -1,0 +1,35 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+Nes_u3_assembled_kmers_motif_1	RNCMPT00079	0	5.32957e-05	0.00543616	0.00238072	7	TTTTTTCCTCCCTT	TTTTTTC	+
+Nes_u3_assembled_kmers_motif_1	RNCMPT00165	0	5.32957e-05	0.00543616	0.00238072	7	TTTTTTCCTCCCTT	TTTTTTC	+
+Nes_u3_assembled_kmers_motif_1	RNCMPT00274	0	0.000485006	0.0494706	0.0144435	7	TTTTTTCCTCCCTT	TTTTTTT	+
+Nes_u3_assembled_kmers_motif_1	RNCMPT00159	0	0.000649409	0.0662397	0.0145046	7	TTTTTTCCTCCCTT	TTTTTTG	+
+Nes_u3_assembled_kmers_motif_1	RNCMPT00158	1	0.00121359	0.123786	0.0216845	6	TTTTTTCCTCCCTT	CTTTTTT	+
+Nes_u3_assembled_kmers_motif_1	RNCMPT00167	1	0.00168643	0.172016	0.0232954	6	TTTTTTCCTCCCTT	ATTTTTT	+
+Nes_u3_assembled_kmers_motif_1	RNCMPT00025	1	0.00182525	0.186175	0.0232954	6	TTTTTTCCTCCCTT	ATTTTTT	+
+Nes_u3_assembled_kmers_motif_1	RNCMPT00077	0	0.00231215	0.23584	0.0240086	7	TTTTTTCCTCCCTT	TTTTTTG	+
+Nes_u3_assembled_kmers_motif_1	RNCMPT00012	1	0.0024186	0.246697	0.0240086	6	TTTTTTCCTCCCTT	CTTTTTT	+
+Nes_u3_assembled_kmers_motif_1	RNCMPT00044	-6	0.00401225	0.409249	0.0358455	7	TTTTTTCCTCCCTT	CCTTCCC	+
+Nes_u3_assembled_kmers_motif_1	RNCMPT00032	0	0.00462659	0.471913	0.0375764	7	TTTTTTCCTCCCTT	TTATTTT	+
+Nes_u3_assembled_kmers_motif_1	RNCMPT00268	1	0.00627196	0.63974	0.0466948	6	TTTTTTCCTCCCTT	CTTTTCT	+
+Nes_u3_assembled_kmers_motif_1	RNCMPT00086	0	0.00841814	0.858651	0.0578521	7	TTTTTTCCTCCCTT	TTTGTTT	+
+Nes_u3_assembled_kmers_motif_1	RNCMPT00112	0	0.0133958	1.36638	0.0854847	7	TTTTTTCCTCCCTT	TTTGTTT	+
+Nes_u3_assembled_kmers_motif_2	RNCMPT00020	0	0.000402194	0.0410238	0.037828	7	GGACGGGGCGGAG	GGACGGG	+
+Nes_u3_assembled_kmers_motif_3	RNCMPT00149	-2	0.000142309	0.0145156	0.0122281	7	GGCAGACAGT	CAGACAG	+
+Nes_u3_assembled_kmers_motif_8	RNCMPT00019	0	0.000214104	0.0218386	0.0121485	7	AGAGAAAAC	AGAGAAA	+
+Nes_u3_assembled_kmers_motif_8	RNCMPT00090	0	0.000268636	0.0274008	0.0121485	7	AGAGAAAAC	AGAGAAA	+
+Nes_u3_assembled_kmers_motif_8	RNCMPT00089	0	0.000458641	0.0467814	0.0138274	7	AGAGAAAAC	AGAGAAA	+
+Nes_u3_assembled_kmers_motif_8	RNCMPT00157	-2	0.00147807	0.150764	0.0292359	7	AGAGAAAAC	AGAAGAC	+
+Nes_u3_assembled_kmers_motif_8	RNCMPT00171	-2	0.00161621	0.164854	0.0292359	7	AGAGAAAAC	AGAAAAT	+
+Nes_u3_assembled_kmers_motif_8	RNCMPT00064	-2	0.00281179	0.286802	0.0354264	7	AGAGAAAAC	AGAAAAA	+
+Nes_u3_assembled_kmers_motif_8	RNCMPT00155	-2	0.00281179	0.286802	0.0354264	7	AGAGAAAAC	AGAAAAA	+
+Nes_u3_assembled_kmers_motif_8	RNCMPT00153	-3	0.00313349	0.319616	0.0354264	6	AGAGAAAAC	GAAAACC	+
+Nes_u3_assembled_kmers_motif_8	RNCMPT00088	0	0.00889956	0.907755	0.0894364	7	AGAGAAAAC	AGAGAGG	+
+Nes_u3_assembled_kmers_motif_12	RNCMPT00117	0	0.00012749	0.013004	0.00556472	7	TTTGGTT	TTTGTTT	+
+Nes_u3_assembled_kmers_motif_12	RNCMPT00112	0	0.000177261	0.0180806	0.00556472	7	TTTGGTT	TTTGTTT	+
+Nes_u3_assembled_kmers_motif_12	RNCMPT00086	0	0.000186521	0.0190252	0.00556472	7	TTTGGTT	TTTGTTT	+
+Nes_u3_assembled_kmers_motif_12	RNCMPT00136	-1	0.00149852	0.152849	0.0335305	6	TTTGGTT	TTGGTTT	+
+Nes_u3_assembled_kmers_motif_12	RNCMPT00274	0	0.00534261	0.544947	0.0956357	7	TTTGGTT	TTTTTTT	+
+
+# Tomtom (Motif Comparison Tool): Version 5.0.2 compiled on Nov  7 2018 at 13:16:04
+# The format of this file is described at http://meme-suite.org/doc/tomtom-output-format.html.
+# tomtom -no-ssc -oc /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnagps/data/intermediate_kfold_5/test_kmer_assembly_2_bp_gap/localization_tomtom_3_support/Nes_u3_assembled_kmers -verbosity 1 -norc -min-overlap 5 -dist pearson -thresh 0.1 /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnagps/data/intermediate_kfold_5/test_kmer_assembly_2_bp_gap/localization_tomtom_3_support/Nes_u3_assembled_kmers.meme /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnagps/data/meme/Ray2013_rbp_Homo_sapiens.dna_encoded.meme

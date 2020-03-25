@@ -1,0 +1,22 @@
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+tp_6_u5_assembled_kmer_0      ----TCGCCCAC---------	8
+tp_6_u5_assembled_kmer_1      ------GCCCACC--------	7
+tp_6_u5_assembled_kmer_2      ---TGTGCCAA----------	8
+tp_6_u5_assembled_kmer_3      -----TGCCAACAT-------	9
+tp_0_u5_assembled_kmer_1      TATTGGGCAGTC---------	12
+tp_0_u5_assembled_kmer_2      ----GGGCAGT----------	7
+tp_2_u5_assembled_kmer_0      -----TGCAGCC---------	7
+tp_0_u5_assembled_kmer_4      ---------CCCGG--AG---	7
+tp_0_u5_assembled_kmer_0      -------AAGCCGGC------	8
+tp_2_u5_assembled_kmer_1      ---------GCCTGCGAGG--	10
+tp_2_u5_assembled_kmer_2      -----------CTGCGAG---	7
+tp_9_u5_assembled_kmer_0      ---------CC--TCAAGG--	8
+tp_9_u5_assembled_kmer_1      -------------TCAAGGCC	8
+tp_5_u5_assembled_kmer_0      --------CGC--TCGGGAA-	10
+tp_0_u5_assembled_kmer_3      -----TCCTCC--CCC-----	9
+tp_1_u5_assembled_kmer_2      --------ACC--TCCGG---	8
+tp_1_u5_assembled_kmer_0      --TGGTGCACC--TCCG----	13
+tp_1_u5_assembled_kmer_1      ----GTGCACC----------	7
+                                                   

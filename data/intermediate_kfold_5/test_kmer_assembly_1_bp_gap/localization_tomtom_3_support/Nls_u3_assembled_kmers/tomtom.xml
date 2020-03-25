@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<tomtom version="5.0.2" release="Thu Aug 30 14:26:08 2018 -0700">
+  <model>
+    <command_line>tomtom -no-ssc -oc /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/intermediate_kfold_5/test_kmer_assembly_1_bp_gap/localization_tomtom_3_support/Nls_u3_assembled_kmers -verbosity 1 -norc -min-overlap 5 -dist pearson -thresh 0.1 /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/intermediate_kfold_5/test_kmer_assembly_1_bp_gap/localization_tomtom_3_support/Nls_u3_assembled_kmers.meme /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/meme/Ray2013_rbp_Homo_sapiens.dna_encoded.meme</command_line>
+    <distance_measure value="pearson"/>
+    <threshold type="qvalue">0.1</threshold>
+    <alphabet name="DNA" like="dna">
+      <letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+      <letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+      <letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+      <letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+      <letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+      <letter id="V" symbol="V" equals="ACG" name="Not T"/>
+      <letter id="H" symbol="H" equals="ACT" name="Not G"/>
+      <letter id="D" symbol="D" equals="AGT" name="Not C"/>
+      <letter id="B" symbol="B" equals="CGT" name="Not A"/>
+      <letter id="M" symbol="M" equals="AC" name="Amino"/>
+      <letter id="R" symbol="R" equals="AG" name="Purine"/>
+      <letter id="W" symbol="W" equals="AT" name="Weak"/>
+      <letter id="S" symbol="S" equals="CG" name="Strong"/>
+      <letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+      <letter id="K" symbol="K" equals="GT" name="Keto"/>
+    </alphabet>
+    <strands>forward</strands>
+    <background from="--query--" A="0.25" C="0.25" G="0.25" T="0.25"/>
+    <host>DN0a24b054.SUNet</host>
+    <when>Wed Nov  6 22:34:18 2019</when>
+  </model>
+  <query_dbs>
+    <db source="/Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/intermediate_kfold_5/test_kmer_assembly_1_bp_gap/localization_tomtom_3_support/Nls_u3_assembled_kmers.meme" name="Nls_u3_assembled_kmers" loaded="16" excluded="0" last_mod_date="Wed Nov  6 22:34:18 2019"/>
+  </query_dbs>
+  <target_dbs>
+    <db source="/Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/meme/Ray2013_rbp_Homo_sapiens.dna_encoded.meme" name="Ray2013_rbp_Homo_sapiens.dna_encoded" loaded="102" excluded="0" last_mod_date="Wed May 15 11:34:24 2019"/>
+  </target_dbs>
+  <queries>
+    <motif db="0" id="Nls_u3_assembled_kmers_motif_0" alt="GCTGAAGTAGGCG" length="13" nsites="20">
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+    </motif>
+    <motif db="0" id="Nls_u3_assembled_kmers_motif_1" alt="GACTAGGTCTAG" length="12" nsites="20">
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+    </motif>
+    <motif db="0" id="Nls_u3_assembled_kmers_motif_10" alt="CAGGGCC" length="7" nsites="20">
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+    </motif>
+    <motif db="0" id="Nls_u3_assembled_kmers_motif_11" alt="CCAGCTG" length="7" nsites="20">
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+    </motif>
+    <motif db="0" id="Nls_u3_assembled_kmers_motif_12" alt="TAAGAGA" length="7" nsites="20">
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+    </motif>
+    <motif db="0" id="Nls_u3_assembled_kmers_motif_13" alt="CCCAGCC" length="7" nsites="20">
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+    </motif>
+    <motif db="0" id="Nls_u3_assembled_kmers_motif_14" alt="GGGACAG" length="7" nsites="20">
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+    </motif>
+    <motif db="0" id="Nls_u3_assembled_kmers_motif_15" alt="GAGCCCC" length="7" nsites="20">
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+    </motif>
+    <motif db="0" id="Nls_u3_assembled_kmers_motif_2" alt="TTCAGTGTCCA" length="11" nsites="20">
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+    </motif>
+    <motif db="0" id="Nls_u3_assembled_kmers_motif_3" alt="TTTGTGCAGTG" length="11" nsites="20">
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+    </motif>
+    <motif db="0" id="Nls_u3_assembled_kmers_motif_4" alt="CCCCCACC" length="8" nsites="20">
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+    </motif>
+    <motif db="0" id="Nls_u3_assembled_kmers_motif_5" alt="AGCTTTG" length="7" nsites="20">
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+    </motif>
+    <motif db="0" id="Nls_u3_assembled_kmers_motif_6" alt="TTTTTGT" length="7" nsites="20">
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+    </motif>
+    <motif db="0" id="Nls_u3_assembled_kmers_motif_7" alt="TTCAAAG" length="7" nsites="20">
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+    </motif>
+    <motif db="0" id="Nls_u3_assembled_kmers_motif_8" alt="CATGTTT" length="7" nsites="20">
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.0101284" C="0.889659" G="0.0101284" T="0.0900856"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0109045" C="0.0109045" G="0.967288" T="0.0109045"/>
+    </motif>
+    <motif db="0" id="Nls_u3_assembled_kmers_motif_9" alt="AAATATT" length="7" nsites="20">
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.889659" C="0.0101284" G="0.0900856" T="0.0101284"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+      <pos A="0.0109045" C="0.0109045" G="0.0109045" T="0.967288"/>
+    </motif>
+  </queries>
+  <targets>
+    <motif db="0" id="RNCMPT00033" alt="IGF2BP2" length="7" nsites="20"
+        url="http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya">
+      <pos A="0.56298" C="0.176976" G="0.172367" T="0.0876766"/>
+      <pos A="0.399038" C="0.519352" G="0.040805" T="0.040805"/>
+      <pos A="0.947545" C="0.0174846" G="0.0174846" T="0.0174846"/>
+      <pos A="0.505747" C="0.199462" G="0.0174846" T="0.277305"/>
+      <pos A="0.595207" C="0.110002" G="0.0174846" T="0.277305"/>
+      <pos A="0.110002" C="0.855028" G="0.0174846" T="0.0174846"/>
+      <pos A="0.947545" C="0.0174846" G="0.0174846" T="0.0174846"/>
+    </motif>
+    <motif db="0" id="RNCMPT00043" alt="PABPC4" length="7" nsites="20"
+        url="http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya">
+      <pos A="0.775808" C="0.103811" G="0.111219" T="0.00916219"/>
+      <pos A="0.788272" C="0.104608" G="0.0979582" T="0.00916219"/>
+      <pos A="0.972514" C="0.00916219" G="0.00916219" T="0.00916219"/>
+      <pos A="0.972514" C="0.00916219" G="0.00916219" T="0.00916219"/>
+      <pos A="0.972514" C="0.00916219" G="0.00916219" T="0.00916219"/>
+      <pos A="0.682574" C="0.111708" G="0.10448" T="0.101239"/>
+      <pos A="0.680554" C="0.105521" G="0.204762" T="0.00916219"/>
+    </motif>
+    <motif db="0" id="RNCMPT00064" alt="SART3" length="7" nsites="20"
+        url="http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya">
+      <pos A="0.754498" C="0.0818338" G="0.0818338" T="0.0818338"/>
+      <pos A="0.3267" C="0.123776" G="0.5155" T="0.0340229"/>
+      <pos A="0.970195" C="0.00993532" G="0.00993532" T="0.00993532"/>
+      <pos A="0.970195" C="0.00993532" G="0.00993532" T="0.00993532"/>
+      <pos A="0.970195" C="0.00993532" G="0.00993532" T="0.00993532"/>
+      <pos A="0.769522" C="0.121258" G="0.0992846" T="0.00993532"/>
+      <pos A="0.685229" C="0.204166" G="0.00993532" T="0.10067"/>
+    </motif>
+    <motif db="0" id="RNCMPT00091" alt="HNRNPL" length="7" nsites="20"
+        url="http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya">
+      <pos A="0.937813" C="0.0207294" G="0.0207294" T="0.0207294"/>
+      <pos A="0.0207294" C="0.937813" G="0.0207294" T="0.0207294"/>
+      <pos A="0.937813" C="0.0207294" G="0.0207294" T="0.0207294"/>
+      <pos A="0.11301" C="0.845532" G="0.0207294" T="0.0207294"/>
+      <pos A="0.475969" C="0.11301" G="0.390293" T="0.0207294"/>
+      <pos A="0.760846" C="0.107837" G="0.110588" T="0.0207294"/>
+      <pos A="0.36087" C="0.270782" G="0.27707" T="0.0912796"/>
+    </motif>
+    <motif db="0" id="RNCMPT00155" alt="PABPC1" length="7" nsites="20"
+        url="http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya">
+      <pos A="0.755056" C="0.0816478" G="0.0816478" T="0.0816478"/>
+      <pos A="0.325772" C="0.123674" G="0.516743" T="0.0338109"/>
+      <pos A="0.970824" C="0.00972537" G="0.00972537" T="0.00972537"/>
+      <pos A="0.970824" C="0.00972537" G="0.00972537" T="0.00972537"/>
+      <pos A="0.970824" C="0.00972537" G="0.00972537" T="0.00972537"/>
+      <pos A="0.770256" C="0.120591" G="0.0994279" T="0.00972537"/>
+      <pos A="0.685113" C="0.203804" G="0.00972537" T="0.101357"/>
+    </motif>
+    <motif db="0" id="RNCMPT00169" alt="KHDRBS1" length="7" nsites="20"
+        url="http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya">
+      <pos A="0.795935" C="0.0350299" G="0.0350299" T="0.134005"/>
+      <pos A="0.0109413" C="0.0109413" G="0.0109413" T="0.967176"/>
+      <pos A="0.881063" C="0.0109413" G="0.0109413" T="0.0970547"/>
+      <pos A="0.967176" C="0.0109413" G="0.0109413" T="0.0109413"/>
+      <pos A="0.875323" C="0.0109413" G="0.0109413" T="0.102793"/>
+      <pos A="0.896208" C="0.034597" G="0.034597" T="0.034597"/>
+      <pos A="0.286099" C="0.196141" G="0.412458" T="0.105302"/>
+    </motif>
+    <motif db="0" id="RNCMPT00172" alt="IGF2BP3" length="7" nsites="20"
+        url="http://hugheslab.ccbr.utoronto.ca/supplementary-data/RNAcompete_eukarya">
+      <pos A="0.711086" C="0.161554" G="0.0636796" T="0.0636796"/>
+      <pos A="0.395567" C="0.486559" G="0.0167542" T="0.10112"/>
+      <pos A="0.782154" C="0.0999711" G="0.0167542" T="0.10112"/>
+      <pos A="0.38682" C="0.297771" G="0.0167542" T="0.298655"/>
+      <pos A="0.57437" C="0.110221" G="0.0167542" T="0.298655"/>
+      <pos A="0.199622" C="0.766869" G="0.0167542" T="0.0167542"/>
+      <pos A="0.860334" C="0.106156" G="0.0167542" T="0.0167542"/>
+    </motif>
+  </targets>
+  <matches>
+    <query idx="12">
+      <target idx="1" off="0" pv="1.19e-03" ev="1.21e-01" qv="7.61e-02"/>
+      <target idx="2" off="0" pv="2.51e-03" ev="2.56e-01" qv="7.61e-02"/>
+      <target idx="4" off="0" pv="2.51e-03" ev="2.56e-01" qv="7.61e-02"/>
+      <target idx="3" off="0" pv="4.36e-03" ev="4.45e-01" qv="8.36e-02"/>
+      <target idx="0" off="0" pv="4.83e-03" ev="4.93e-01" qv="8.36e-02"/>
+      <target idx="5" off="0" pv="5.51e-03" ev="5.62e-01" qv="8.36e-02"/>
+      <target idx="6" off="0" pv="6.49e-03" ev="6.62e-01" qv="8.44e-02"/>
+    </query>
+  </matches>
+  <runtime cycles="356443" seconds="0.356"/>
+</tomtom>

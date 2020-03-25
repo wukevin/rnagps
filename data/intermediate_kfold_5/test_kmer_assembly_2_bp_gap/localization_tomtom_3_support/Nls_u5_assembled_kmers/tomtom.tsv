@@ -1,0 +1,16 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+Nls_u5_assembled_kmers_motif_5	RNCMPT00045	-1	0.000903322	0.0921389	0.0880395	7	CCCGCGCCGCCCGCCG	GCGCGCG	+
+Nls_u5_assembled_kmers_motif_6	RNCMPT00045	-3	0.000866899	0.0884237	0.0836096	7	CCCCCGCGCCGCCCGC	GCGCGCG	+
+Nls_u5_assembled_kmers_motif_15	RNCMPT00044	-1	0.00078445	0.0800139	0.0745444	7	CTCTTCCCGGCG	CCTTCCC	+
+Nls_u5_assembled_kmers_motif_19	RNCMPT00070	-2	0.000532222	0.0542867	0.0526846	7	GGAATCAAG	GATCAAG	+
+Nls_u5_assembled_kmers_motif_19	RNCMPT00087	-1	0.00121759	0.124194	0.0602646	8	GGAATCAAG	GAATTAAG	+
+Nls_u5_assembled_kmers_motif_20	RNCMPT00056	-1	0.000128353	0.0130921	0.0124464	7	GGTGCGCGG	GCGCGCG	+
+Nls_u5_assembled_kmers_motif_20	RNCMPT00018	-2	0.000513104	0.0523366	0.0200954	7	GGTGCGCGG	TGCGCGC	+
+Nls_u5_assembled_kmers_motif_20	RNCMPT00052	-3	0.000621702	0.0634136	0.0200954	6	GGTGCGCGG	GCGCGGG	+
+Nls_u5_assembled_kmers_motif_20	RNCMPT00113	-3	0.00112065	0.114306	0.0271672	6	GGTGCGCGG	GCGCGGG	+
+Nls_u5_assembled_kmers_motif_20	RNCMPT00045	-1	0.00219405	0.223793	0.0425513	7	GGTGCGCGG	GCGCGCG	+
+Nls_u5_assembled_kmers_motif_20	RNCMPT00085	0	0.00553652	0.564725	0.0894792	7	GGTGCGCGG	GCAGCGC	+
+
+# Tomtom (Motif Comparison Tool): Version 5.0.2 compiled on Nov  7 2018 at 13:16:04
+# The format of this file is described at http://meme-suite.org/doc/tomtom-output-format.html.
+# tomtom -no-ssc -oc /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnagps/data/intermediate_kfold_5/test_kmer_assembly_2_bp_gap/localization_tomtom_3_support/Nls_u5_assembled_kmers -verbosity 1 -norc -min-overlap 5 -dist pearson -thresh 0.1 /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnagps/data/intermediate_kfold_5/test_kmer_assembly_2_bp_gap/localization_tomtom_3_support/Nls_u5_assembled_kmers.meme /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnagps/data/meme/Ray2013_rbp_Homo_sapiens.dna_encoded.meme

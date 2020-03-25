@@ -1,0 +1,128 @@
+# https://www.gencodegenes.org/pages/biotypes.html
+> Immunoglobulin variable chain
+IG_C_gene
+IG_D_gene
+IG_J_gene
+IG_LV_gene
+IG_V_gene
+TR_C_gene
+TR_J_gene
+TR_V_gene
+TR_D_gene
+
+> Inactivated immunoglobulin gene
+IG_pseudogene
+IG_C_pseudogene
+IG_J_pseudogene
+IG_V_pseudogene
+TR_V_pseudogene
+TR_J_pseudogene
+
+> Noncoding RNA predicted from Rfam and miRBase
+Mt_rRNA
+Mt_tRNA
+miRNA
+misc_RNA
+rRNA
+scRNA
+snRNA
+snoRNA
+ribozyme
+sRNA
+scaRNA
+
+> Noncoding RNA predicted to be pseudogene by Ensembl pipeline
+Mt_tRNA_pseudogene
+tRNA_pseudogene
+snoRNA_pseudogene
+snRNA_pseudogene
+scRNA_pseudogene
+rRNA_pseudogene
+misc_RNA_pseudogene
+miRNA_pseudogene
+
+> To be experimentally confirmed
+TEC
+
+> Nonsense mediated decay
+nonsense_mediated_decay
+
+> Non stop decay (poly A features without prior stop codon in CDS) subject to degradation
+non_stop_decay
+
+> Alt spliced transcript with intronic sequence
+retained_intron
+
+> Protein coding - containing ORF
+protein_coding
+
+> Processed transcript without ORF
+processed_transcript
+
+> Non-coding (literature)
+non_coding
+
+> Ambiguous ORF (protein-coding)
+ambiguous_orf
+
+> Sense intronic
+sense_intronic
+
+> Sense overlapping
+sense_overlapping
+
+> Antisense
+antisense/antisense_RNA
+antisense
+antisense_RNA
+
+> Known ncRNA
+known_ncrna
+
+> Pseudogene
+pseudogene
+
+> Processed pseudogene
+processed_pseudogene
+
+> Polymorphic pseudogene
+polymorphic_pseudogene
+
+> Retrotransposed
+retrotransposed
+
+> Pseudogene, partially expressed
+transcribed_processed_pseudogene
+transcribed_unprocessed_pseudogene
+transcribed_unitary_pseudogene
+
+> Pseudogene, partially transcribed
+translated_processed_pseudogene
+translated_unprocessed_pseudogene
+
+> Pseudogene, specifes specific unprocessed without parent
+unitary_pseudogene
+
+> Pseudogene, unprocessed
+unprocessed_pseudogene
+
+> Mistake
+artifact
+
+> lincRNA
+lincRNA
+
+> lincRNA, large
+macro_lncRNA
+
+> 3prime overlapping ncRNA
+3prime_overlapping_ncRNA
+
+> Disrupted domain
+disrupted_domain
+
+> ncRNA forming part of vault ribonucleoprotein complex
+vaultRNA
+
+> bidirectional promoter lncRNA
+bidirectional_promoter_lncRNA

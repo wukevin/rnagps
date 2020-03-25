@@ -1,0 +1,26 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+Lma_u3_assembled_kmers_motif_2	RNCMPT00178	0	0.00117493	0.119843	0.0769305	7	TCACACAGAA	ACACACA	+
+Lma_u3_assembled_kmers_motif_2	RNCMPT00027	0	0.00207468	0.211618	0.0769305	7	TCACACAGAA	ACACACA	+
+Lma_u3_assembled_kmers_motif_2	RNCMPT00149	-1	0.00242331	0.247178	0.0769305	7	TCACACAGAA	CAGACAG	+
+Lma_u3_assembled_kmers_motif_2	RNCMPT00156	-3	0.00408076	0.416238	0.0894055	7	TCACACAGAA	GACAGAT	+
+Lma_u3_assembled_kmers_motif_2	RNCMPT00091	-2	0.00469379	0.478766	0.0894055	7	TCACACAGAA	ACACAAA	+
+Lma_u3_assembled_kmers_motif_6	RNCMPT00157	1	0.00160744	0.163959	0.0776358	6	GAAGACAAA	AGAAGAC	+
+Lma_u3_assembled_kmers_motif_6	RNCMPT00241	0	0.00360993	0.368213	0.0776358	7	GAAGACAAA	GACGACA	+
+Lma_u3_assembled_kmers_motif_6	RNCMPT00019	-2	0.00555312	0.566418	0.0776358	7	GAAGACAAA	AGAGAAA	+
+Lma_u3_assembled_kmers_motif_6	RNCMPT00064	-2	0.00617389	0.629737	0.0776358	7	GAAGACAAA	AGAAAAA	+
+Lma_u3_assembled_kmers_motif_6	RNCMPT00090	-2	0.00617389	0.629737	0.0776358	7	GAAGACAAA	AGAGAAA	+
+Lma_u3_assembled_kmers_motif_6	RNCMPT00155	-2	0.00617389	0.629737	0.0776358	7	GAAGACAAA	AGAAAAA	+
+Lma_u3_assembled_kmers_motif_6	RNCMPT00089	-2	0.00823705	0.84018	0.0887826	7	GAAGACAAA	AGAGAAA	+
+Lma_u3_assembled_kmers_motif_6	RNCMPT00091	-2	0.0100024	1.02024	0.092	7	GAAGACAAA	ACACAAA	+
+Lma_u3_assembled_kmers_motif_6	RNCMPT00149	-1	0.0109743	1.11938	0.092	7	GAAGACAAA	CAGACAG	+
+Lma_u3_assembled_kmers_motif_11	RNCMPT00044	0	0.00012503	0.0127531	0.011926	7	CTTTCCCA	CCTTCCC	+
+Lma_u3_assembled_kmers_motif_11	RNCMPT00186	1	0.000853921	0.0871	0.0407255	6	CTTTCCCA	CCTTTCC	+
+Lma_u3_assembled_kmers_motif_11	RNCMPT00268	0	0.00131416	0.134044	0.0414781	7	CTTTCCCA	CTTTTCT	+
+Lma_u3_assembled_kmers_motif_11	RNCMPT00269	1	0.0017394	0.177419	0.0414781	6	CTTTCCCA	ACTTTCT	+
+Lma_u3_assembled_kmers_motif_12	RNCMPT00152	-1	0.000135497	0.0138207	0.00871748	7	ATATATAC	TATATAC	+
+Lma_u3_assembled_kmers_motif_12	RNCMPT00057	0	0.00017523	0.0178735	0.00871748	7	ATATATAC	ATATATA	+
+Lma_u3_assembled_kmers_motif_12	RNCMPT00173	-1	0.000513807	0.0524083	0.0170408	7	ATATATAC	TATATAG	+
+
+# Tomtom (Motif Comparison Tool): Version 5.0.2 compiled on Nov  7 2018 at 13:16:04
+# The format of this file is described at http://meme-suite.org/doc/tomtom-output-format.html.
+# tomtom -no-ssc -oc /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/intermediate_kfold_5/test_kmer_assembly_1_bp_gap/localization_tomtom_3_support/Lma_u3_assembled_kmers -verbosity 1 -norc -min-overlap 5 -dist pearson -thresh 0.1 /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/intermediate_kfold_5/test_kmer_assembly_1_bp_gap/localization_tomtom_3_support/Lma_u3_assembled_kmers.meme /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnafinder/data/meme/Ray2013_rbp_Homo_sapiens.dna_encoded.meme

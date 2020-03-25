@@ -1,0 +1,3 @@
+Overall - https://www.encodeproject.org/search/?type=Experiment&status=released&assay_slims=Transcription&searchTerm=fraction&assay_title=polyA%20plus%20RNA-seq&biosample_ontology.term_name=H1
+Cytoplasmic - https://www.encodeproject.org/experiments/ENCSR000COV/
+Nuclear - https://www.encodeproject.org/experiments/ENCSR000COW/

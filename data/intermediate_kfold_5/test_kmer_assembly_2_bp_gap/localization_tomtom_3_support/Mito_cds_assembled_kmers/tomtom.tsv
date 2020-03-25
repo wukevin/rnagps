@@ -1,0 +1,13 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+Mito_cds_assembled_kmers_motif_15	RNCMPT00044	-1	0.000328068	0.033463	0.0315918	7	GCTTTCCCCATT	CCTTCCC	+
+Mito_cds_assembled_kmers_motif_15	RNCMPT00186	0	0.00201375	0.205402	0.0969583	7	GCTTTCCCCATT	CCTTTCC	+
+Mito_cds_assembled_kmers_motif_31	RNCMPT00038	-1	0.00102801	0.104857	0.0938058	7	CTGCTTCC	AGCTTGC	+
+Mito_cds_assembled_kmers_motif_40	RNCMPT00106	0	0.00158935	0.162114	0.081591	7	GGGGGAC	GGAGGAC	+
+Mito_cds_assembled_kmers_motif_40	RNCMPT00107	0	0.00199624	0.203617	0.081591	7	GGGGGAC	GGAGGAA	+
+Mito_cds_assembled_kmers_motif_40	RNCMPT00163	0	0.00256861	0.261998	0.081591	7	GGGGGAC	GGAGGAG	+
+Mito_cds_assembled_kmers_motif_45	RNCMPT00038	1	0.00145474	0.148384	0.0808824	6	GCTCGCA	AGCTTGC	+
+Mito_cds_assembled_kmers_motif_45	RNCMPT00018	1	0.00167724	0.171079	0.0808824	6	GCTCGCA	TGCGCGC	+
+
+# Tomtom (Motif Comparison Tool): Version 5.0.2 compiled on Nov  7 2018 at 13:16:04
+# The format of this file is described at http://meme-suite.org/doc/tomtom-output-format.html.
+# tomtom -no-ssc -oc /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnagps/data/intermediate_kfold_5/test_kmer_assembly_2_bp_gap/localization_tomtom_3_support/Mito_cds_assembled_kmers -verbosity 1 -norc -min-overlap 5 -dist pearson -thresh 0.1 /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnagps/data/intermediate_kfold_5/test_kmer_assembly_2_bp_gap/localization_tomtom_3_support/Mito_cds_assembled_kmers.meme /Users/kevin/Documents/Stanford/zou/chang_rna_localization/rnagps/data/meme/Ray2013_rbp_Homo_sapiens.dna_encoded.meme
