@@ -4,6 +4,7 @@ Utilities for models, e.g. training them and evaluating performance
 
 import sys
 import os
+from typing import List
 import copy
 import itertools
 import warnings
@@ -33,7 +34,13 @@ if torch.cuda.is_available():
     DEVICE = torch.device(f"cuda:{torch.cuda.device_count() - 1}")
 else:
     DEVICE = torch.device("cpu")
-    logging.warn("Non-gpu device: {}".format(DEVICE))
+    logging.warning("Non-gpu device: {}".format(DEVICE))
+
+MODEL_DIR = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+    "models",
+)
+assert os.path.isdir(MODEL_DIR)
 
 # Default data loader parameters
 DATA_LOADER_PARAMS = {
@@ -46,7 +53,10 @@ OPTIMIZER_PARAMS = {
     "lr": 1e-3,
 }
 
-ModelPerf = collections.namedtuple('ModelPerf', ['auroc', 'auroc_curve', 'auprc', 'auprc_curve', 'accuracy', 'recall', 'precision', 'f1', 'ce_loss'])
+ModelPerf = collections.namedtuple(
+    'ModelPerf',
+    ['auroc', 'auroc_curve', 'auprc', 'auprc_curve', 'accuracy', 'recall', 'precision', 'f1', 'ce_loss'],
+)
 
 class RandomClassifier(object):
     """
@@ -110,6 +120,31 @@ class EarlyStopper(object):
                 print(f"{epochs_without_improvement} epochs without improvement - sending signal to stop training")
             return True
         return False
+
+class CompoundModel(object):
+    """
+    Takes a nuclear model and a cytoplasmic model and predicts from them
+    """
+    def __init__(self, cyto_model_path:str=os.path.join(MODEL_DIR, "rf_cyto_only.0.21.3.skmodel"), nuc_model_path:str=os.path.join(MODEL_DIR, "rf_nuc_only.0.21.3.skmodel"), cyto_labels:List[str]=["Erm", "Mito", "Nes", "Omm"], nuc_labels:List[str]=["Lma", "Nik", "Nls", "NucPore"], is_sklearn:bool=True):
+        if not is_sklearn:
+            raise NotImplementedError
+        self.cyto_labels = cyto_labels
+        self.cyto_model = utils.load_sklearn_model(cyto_model_path)
+        self.nuc_labels = nuc_labels
+        self.nuc_model = utils.load_sklearn_model(nuc_model_path)
+
+    @property
+    def output_labels(self):
+        return self.nuc_labels + self.cyto_labels
+
+    def predict_proba(self, x) -> np.ndarray:
+        """Predicts on a given input"""
+        nuc_preds = self.nuc_model.predict_proba(x)
+        nuc_preds = list_preds_to_array_preds(nuc_preds)
+        cyto_preds = self.cyto_model.predict_proba(x)
+        cyto_preds = list_preds_to_array_preds(cyto_preds)
+        retval = np.hstack((nuc_preds, cyto_preds))
+        return retval
 
 def single_train(model, train_data, valid_data, verbose=True):
     """
@@ -378,6 +413,30 @@ def pytorch_eval(net, eval_data, preds_index=0, data_loader_kwargs=DATA_LOADER_P
     net.train()
     return overall_perf, per_class_perf, truths, preds
 
+def lstm_eval(net, eval_data, device=DEVICE):
+    """Takes a model and a Dataset and evaluates"""
+    net.to(device)
+    truths, preds = [], []
+    with torch.no_grad():
+        sig = torch.nn.Sigmoid()  # Assume the model outputs logits
+        for i in range(len(eval_data)):  # Causes some weird crashes
+            x, y = eval_data[i]
+            truths.append(torch.squeeze(y).numpy())
+            x, y = x.type(torch.LongTensor).to(device), y.to(device)
+            output = net(x)
+            output_sig = sig(output)
+            preds.append(output_sig.detach().cpu().numpy())
+    truths = np.round(np.array(truths)).astype(int)
+    preds = np.array(preds).astype(float)
+    assert np.all(preds < 1.0) and np.all(preds > 0.0)
+    preds = np.squeeze(preds)
+
+    is_multitask = len(truths.shape) > 1 and truths.shape[1] > 1
+    overall_retval = generate_model_perf(truths, preds, multiclass=is_multitask)
+    per_task_retval = generate_multiclass_perf(truths, preds, truths.shape[1])
+
+    return overall_retval, per_task_retval, truths, preds
+
 def state_dict_to_cpu(d):
     """Transfer the state dict to CPU. Avoids lingering GPU memory buildup."""
     retval = collections.OrderedDict()
@@ -416,5 +475,8 @@ def youden_threshold(preds, truth):
     return cutoff
 
 if __name__ == "__main__":
-    print(generate_model_perf([1, 0], [0.8, 0.2]))
+    # print(generate_model_perf([1, 0], [0.8, 0.2]))
+    m = CompoundModel()
+    print(m.predict_proba(np.random.random(4032).reshape(1, -1)))
+    print(m.output_labels)
 

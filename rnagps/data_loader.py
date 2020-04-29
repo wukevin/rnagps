@@ -370,6 +370,12 @@ class LocalizationClassificationKmers(data.Dataset):
         assert len(retval.shape) == 2
         return retval
 
+    def get_ith_trans_name(self, i, transcripts_only=True):
+        """Gets the name of the i-th transcript sequence"""
+        gene = self.full_deseq_table.index[i if not self.rc_aug else i // 2]
+        transcript = self.get_representative_trans(gene)
+        return transcript
+
     def __getitem__(self, i):
         """Get one sample of data"""
         # X features

@@ -53,7 +53,7 @@ else:
     logging.info("CPU")
     DEVICE = torch.device("cpu")
 
-def ablate(sequence, target, method='N', max_iter=None):
+def ablate(sequence:str, target:str, method='N', max_iter:int=None):
     """Removes all occurrences of target from the sequence"""
     assert target in sequence, f"Could not find target {target} in sequence"
     assert target != "N" * len(target)
@@ -77,7 +77,7 @@ def ablate(sequence, target, method='N', max_iter=None):
     # assert target not in retval, f"Found target {target} in final sequence"
     return retval
 
-def ablate_ppm(sequence, ppm, method='N', prop=0.8, max_iter=None):
+def ablate_ppm(sequence:str, ppm:np.ndarray, method:str='N', prop:float=0.8, max_iter:int=None) -> str:
     """Permute the sequence until the PPM is no longer found"""
     hits = pwm.find_ppm_hits(sequence, ppm, prop=prop)
     if not hits:  # If no matches, return sequence as is
@@ -85,11 +85,11 @@ def ablate_ppm(sequence, ppm, method='N', prop=0.8, max_iter=None):
     if max_iter is None:
         max_iter = int(len(sequence) / len(ppm))
     assert isinstance(max_iter, int)
-    retval = sequence
+    retval = str(sequence)
     for start_idx in hits:
         end_idx = start_idx + ppm.shape[0]
-        if method == "N":
-            replace = "N" * ppm.shape[0]
+        if method == "N" or method == "X":
+            replace = method * ppm.shape[0]
         elif method == 'shuffle':
             chunk = list(retval[start_idx:end_idx])
             random.shuffle(chunk)
@@ -98,7 +98,7 @@ def ablate_ppm(sequence, ppm, method='N', prop=0.8, max_iter=None):
             replace = ''.join([random.choice("ACGT") for _i in range(ppm.shape[0])])
         else:
             raise NotImplementedError(f"Unrecognized method: {method}")
-        retval = retval[:start_idx] + replace + retval[end_idx:]
+        retval = str(retval[:start_idx]) + replace + str(retval[end_idx:])
     assert len(retval) == len(sequence)
     return retval
 

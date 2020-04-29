@@ -2,15 +2,23 @@
 Various miscellaneous utility functions
 """
 import os
+import sys
 import gzip
 import collections
 import pickle
 
 import torch
+import torch.nn as nn
 
 import sklearn
 
 LOCAL_DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(os.path.dirname(__file__)), "data"))
+MODEL_SRC_DIR = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    "models",
+)
+sys.path.append(MODEL_SRC_DIR)
+import recurrent
 
 def isnotebook():
     """
@@ -50,7 +58,6 @@ def gcoord_str_merger(x, y):
     chrom2, int2, strand2 = y.split(":")
     assert strand1 == strand2, f"Mismatched strands: {strand1} {strand2}"
     assert chrom1 == chrom2, f"Mismatched chrom: {chrom1} {chrom2}"
-
     start1, end1 = map(int, int1.split("-"))
     assert start1 < end1
     start2, end2 = map(int, int2.split("-"))
@@ -105,7 +112,7 @@ def save_sklearn_model(model, file_prefix):
         pickle.dump(model, sink)
     return full_fname
 
-def load_sklearn_model(file_name, strict=True):
+def load_sklearn_model(file_name:str, disable_multiprocessing:bool=False, strict:bool=True):
     """
     Load the sklearn model from the given filename
     """
@@ -116,9 +123,23 @@ def load_sklearn_model(file_name, strict=True):
         assert sklearn.__version__ == version, f"Got mismatched sklearn versions: {sklearn.__version__} {version}"
     with open(file_name, 'rb') as source:
         retval = pickle.load(source)
+    if disable_multiprocessing:
+        retval.n_jobs = 1
     return retval
 
+def load_pytorch_model(model:nn.Module, weights_file:str=None, device=get_device(),  **model_kwargs):
+    """
+    Load the model
+    """
+    m = model(**model_kwargs, device=device).to(device)
+    if weights_file:
+        m.load_state_dict(torch.load(weights_file, map_location=device)['model_state_dict'])
+    return m
+
 if __name__ == "__main__":
-    g = read_gtf_trans_to_exons()
-    print(g['ENST00000614171'])
+    m = load_pytorch_model(
+        recurrent.GRULocalizationClassifier,
+        sys.argv[1],
+    )
+    print(m)
 

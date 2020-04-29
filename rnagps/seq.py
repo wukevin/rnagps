@@ -12,6 +12,7 @@ BASE_TO_INT = {
     "G": 2,
     "T": 3,
     "N": 4,
+    "X": 4,  # So X ablation doesn't error out
 }
 
 BASE_TO_COMP = {

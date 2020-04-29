@@ -55,13 +55,13 @@ def generate_all_kmers(k, ignore_N=True):
         retval[''.join(kmer)] = i
     return retval
 
-def sequence_to_kmer_freqs(seq, kmer_size=6, step_size=1, ignore_N=True, normalize=True):
+def sequence_to_kmer_freqs(seq:str, kmer_size:int=6, step_size:int=1, ignore_N:bool=True, normalize:bool=True):
     """
     Featurizes a sequence into a kmer count table. If ignore_N is true, we skip any
     kmers that have a N base, and the output is a array of length 4^kmer_size.
     Otherwise, we include N in the alphabet, and the output is a array of length
     5^kmer_size
-    
+
     >>> list(sequence_to_kmer_freqs("AACCTTGGGCT", 2, 1))
     [0.1, 0.1, 0.0, 0.0, 0.0, 0.1, 0.0, 0.2, 0.0, 0.1, 0.2, 0.0, 0.0, 0.0, 0.1, 0.1]
     >>> list(sequence_to_kmer_freqs("AAAA", 2, 1))
@@ -69,6 +69,7 @@ def sequence_to_kmer_freqs(seq, kmer_size=6, step_size=1, ignore_N=True, normali
     >>> list(sequence_to_kmer_freqs("AAAA", 1, 1, ignore_N=False))
     [1.0, 0.0, 0.0, 0.0, 0.0]
     """
+    assert np.all([base in BASE_TO_INT for base in seq]), f"Unrecognized characters in {seq}"
     # Split into kmers
     seq_kmers = [seq[i:i+kmer_size] for i in range(0, len(seq) - kmer_size + 1, step_size)]
     # Generate all possible kmers

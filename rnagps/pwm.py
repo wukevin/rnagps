@@ -4,6 +4,7 @@ Code for handling PWMs
 
 import os
 import sys
+from typing import List, Dict
 import warnings
 import logging
 import glob
@@ -28,6 +29,9 @@ assert os.path.isdir(LOCAL_DATA_DIR), "Cannot find data directory: {}".format(LO
 MEME_DB = os.path.join(LOCAL_DATA_DIR, "meme/Ray2013_rbp_Homo_sapiens.dna_encoded.meme")
 assert os.path.isfile(MEME_DB), f"Cannot find meme db {MEME_DB}"
 
+ATTRACT_DIRNAME = os.path.join(LOCAL_DATA_DIR, "ATtRACT")
+assert os.path.isdir(ATTRACT_DIRNAME)
+
 def calculate_base_background(sequence, alphabet='ACGT', pseudocount=True):
     """Given a sequence, calculate the proportion of each base"""
     assert sequence
@@ -38,7 +42,7 @@ def calculate_base_background(sequence, alphabet='ACGT', pseudocount=True):
     retval /= float(len(sequence))
     return retval
 
-def find_ppm_hits(sequence, ppm, prop=0.8, debug=False):
+def find_ppm_hits(sequence:str, ppm:np.ndarray, prop:float=0.8, debug:bool=False) -> List[int]:
     """
     Finds the indices of positional probability matrix hits in the given sequence. Uses either prop or pval cutoff
     prop cutoff sets the maximum score as a proportion of the maximum attainable score
@@ -106,7 +110,7 @@ def load_all_ppm_in_dir(dirname=os.path.join(DATA_DIR, "Homo_sapiens_2019_04_15_
     logging.info("Read in {} PWMs".format(len(retval)))
     return retval
 
-def load_meme_ppm(fname=MEME_DB, log_transform=False):
+def load_meme_ppm(fname=MEME_DB, log_transform=False) -> collections.OrderedDict:
     """Loads in the position probability matrices from the given meme file"""
     retval = collections.OrderedDict()
     curr_name = None
@@ -143,12 +147,80 @@ def load_meme_ppm(fname=MEME_DB, log_transform=False):
         retval = {k: np.log2(v) for k, v in retval.items()}
     return retval
 
+def load_meme_results(fname:str) -> Dict[str, np.ndarray]:
+    """Loads the fname of meme de novo motif reuslts"""
+    retval = {}
+    curr_key = None
+    curr_shape = None
+
+    with open(fname) as source:
+        for line in source:
+            line = line.strip()
+            if line.startswith("Motif") and line.endswith("position-specific probability matrix"):
+                curr_key = line.split()[1]
+                assert curr_key not in retval
+                _ = next(source)
+                metaline_tokens = next(source).split()
+                len_idx = (metaline_tokens.index("w=")) + 1
+                curr_shape = int(metaline_tokens[len_idx])
+                curr_vals = []
+                for _i in range(curr_shape):
+                    l = np.array(list(map(float, next(source).strip().split())))
+                    curr_vals.append(l)
+                retval[curr_key] = np.vstack(curr_vals)
+    return retval
+
+def load_attract_ppm(dirname:str=ATTRACT_DIRNAME) -> Dict[str, List[np.ndarray]]:
+    """
+    Loads the ATtRACT PWMs
+    """
+    def assert_single_val_extract(x) -> str:
+        s = set(x)
+        assert len(s) == 1
+        return s.pop()
+
+    metadata = pd.read_csv(os.path.join(dirname, "ATtRACT_db.txt"), delimiter="\t")
+    metadata = metadata.loc[metadata['Organism'] == 'Homo_sapiens']
+
+    curr_item = None
+    pwm_dict = collections.defaultdict(list)
+    with open(os.path.join(dirname, "pwm.txt")) as source:
+        for line in source:
+            if line.startswith(">"):
+                curr_item = tuple(line.strip(">").strip().split())[0]
+                assert curr_item not in pwm_dict
+            else:
+                vals = np.array(list(map(float, line.strip().split())))
+                assert vals.size == 4
+                assert np.isclose(np.sum(vals), 1., atol=0.02), f"Got anomalous sum: {np.sum(vals)}"
+                assert curr_item
+                pwm_dict[curr_item].append(vals)
+
+    # Translate from matrix ID to human readable IDs
+    retval = collections.defaultdict(list)
+    for k, v in pwm_dict.items():
+        matching_rows = metadata.loc[metadata['Matrix_id'] == k]
+        if matching_rows.empty:  # No match then skip
+            continue
+        try:
+            gene = assert_single_val_extract(matching_rows['Gene_name'])  # If multiple genes, skip
+        except AssertionError:
+            continue
+        stacked = np.vstack(v)
+        assert stacked.shape[1] == 4
+        retval[gene].append(stacked)
+    retval.default_factory = None  # do not auto populate anything else
+    logging.info(f"Read {len(retval)} RBP PWMs from {dirname}")
+    return retval
+
 def main():
     """On the fly testing"""
-    x = load_meme_ppm()
-    #print(score_sequence_with_pwm("ACTAGCGTGACTGACTGACTGACGTGAC", list(x.values())[0], min_prop=0.9))
-    print(find_ppm_hits("ATAATTGACTGATCGTAGCTAGCTAC", x["RNCMPT00001 A1CF"], prop=0.9))
-    print(find_ppm_hits("ATAATTGACTGATCGTAGCTAGCTAC", x["RNCMPT00001 A1CF"], prop=None, pval=0.01))
+    pass
+    # x = load_meme_ppm()
+    # print(score_sequence_with_pwm("ACTAGCGTGACTGACTGACTGACGTGAC", list(x.values())[0], min_prop=0.9))
+    # print(find_ppm_hits("ATAATTGACTGATCGTAGCTAGCTAC", x["RNCMPT00001 A1CF"], prop=0.9))
+    # print(find_ppm_hits("ATAATTGACTGATCGTAGCTAGCTAC", x["RNCMPT00001 A1CF"], prop=None, pval=0.01))
+    # x = load_attract_ppm()
 
 if __name__ == "__main__":
     main()
