@@ -14,9 +14,15 @@ import pandas as pd
 
 import tqdm
 
-from covid19 import query_genbank, fetch_genbank, pred_feature_dict, mean_sd_missing_vals
+from covid19 import (
+    query_genbank,
+    fetch_genbank,
+    pred_feature_dict,
+    mean_sd_missing_vals,
+)
 
 from baseline import COV_BASELINE_QUERY, COV_CONSERVED
+
 
 def analyze_general_corona(outdir="general_corona_localization_full"):
     """
@@ -37,7 +43,9 @@ def analyze_general_corona(outdir="general_corona_localization_full"):
             continue
 
     assert coronavirus_preds
-    logging.info(f"Number of general coronavirus records with predictions: {len(coronavirus_preds)}")
+    logging.info(
+        f"Number of general coronavirus records with predictions: {len(coronavirus_preds)}"
+    )
 
     preds_mean, preds_sd = mean_sd_missing_vals(coronavirus_preds.values())
 
@@ -46,6 +54,6 @@ def analyze_general_corona(outdir="general_corona_localization_full"):
     preds_mean.to_csv(os.path.join(outdir, "mean.csv"))
     preds_sd.to_csv(os.path.join(outdir, "sd.csv"))
 
+
 if __name__ == "__main__":
     analyze_general_corona()
-

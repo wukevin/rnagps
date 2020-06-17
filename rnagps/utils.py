@@ -3,6 +3,8 @@ Various miscellaneous utility functions
 """
 import os
 import sys
+import logging
+from typing import Dict, List
 import gzip
 import collections
 import pickle
@@ -20,7 +22,9 @@ MODEL_SRC_DIR = os.path.join(
 sys.path.append(MODEL_SRC_DIR)
 import recurrent
 
-def isnotebook():
+logging.basicConfig(level=logging.INFO)
+
+def isnotebook() -> bool:
     """
     Returns True if the current execution environment is a jupyter notebook
     https://stackoverflow.com/questions/15411967/how-can-i-check-if-code-is-executed-in-the-ipython-notebook
@@ -36,7 +40,7 @@ def isnotebook():
     except NameError:
         return False      # Probably standard Python interpreter
 
-def get_device(i=0):
+def get_device(i:int=0):
     """
     Returns the i-th GPU if GPU is available, else CPU
     Specifying None also returns CPU
@@ -50,9 +54,9 @@ def get_device(i=0):
         d = torch.device('cpu')
     return d
 
-def gcoord_str_merger(x, y):
+def gcoord_str_merger(x:str, y:str) -> str:
     """
-    Takes two intervals of frmat chrom:start-end:strand and merge
+    Takes two intervals of format chrom:start-end:strand and merge
     """
     chrom1, int1, strand1 = x.split(":")
     chrom2, int2, strand2 = y.split(":")
@@ -67,7 +71,7 @@ def gcoord_str_merger(x, y):
     end = max(end1, end2)
     return f"{chrom1}:{start}-{end}:{strand1}"
 
-def read_gtf_trans_to_exons(fname:str=os.path.join(LOCAL_DATA_DIR, "Homo_sapiens.GRCh38.90.gtf.gz")):
+def read_gtf_trans_to_exons(fname:str=os.path.join(LOCAL_DATA_DIR, "Homo_sapiens.GRCh38.90.gtf.gz")) -> Dict[str, List[tuple]]:
     """
     Read gtf file into a dictionary mapping transcripts to exons
     Return value: dict<trans_id, <[(exon_num, chrom, start, stop, gene), ...]>
@@ -102,7 +106,7 @@ def read_gtf_trans_to_exons(fname:str=os.path.join(LOCAL_DATA_DIR, "Homo_sapiens
         retval[trans_id] = sorted(coords)  # Ensure ordering of exons
     return retval
 
-def save_sklearn_model(model, file_prefix):
+def save_sklearn_model(model, file_prefix:str) -> str:
     """
     Save the given model to the given file prefix, appending the sklearn version number and .skmodel extension
     """
@@ -116,11 +120,12 @@ def load_sklearn_model(file_name:str, disable_multiprocessing:bool=False, strict
     """
     Load the sklearn model from the given filename
     """
+    logging.info(f"Loading sklearn model from {file_name}")
     if strict:
         bname = os.path.basename(file_name)
         tokens = bname.split(".")
         version = '.'.join(tokens[1:-1])
-        assert sklearn.__version__ == version, f"Got mismatched sklearn versions: {sklearn.__version__} {version}"
+        assert sklearn.__version__ == version, f"Got mismatched sklearn versions: Installed: {sklearn.__version__} Expected: {version}"
     with open(file_name, 'rb') as source:
         retval = pickle.load(source)
     if disable_multiprocessing:

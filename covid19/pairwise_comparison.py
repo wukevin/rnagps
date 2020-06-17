@@ -19,7 +19,19 @@ import numpy as np
 from scipy import stats
 from statsmodels.stats import multitest
 
-from plotting import PLOTTED_ORFS
+PLOTTED_ORFS = [
+    "orf1ab",
+    "s",
+    "orf3a",
+    "e",
+    "m",
+    "orf6",
+    "orf7a",
+    "orf7b",
+    "orf8",
+    "n",
+    "orf10",
+]
 
 def infer_reference_folder(path:str) -> str:
     """

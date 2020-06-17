@@ -1,0 +1,41 @@
+Analysis Type:	PANTHER Overrepresentation Test (Released 20200407)
+Annotation Version and Release Date:	Reactome version 65 Released 2019-12-22
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+Reactome pathways	Homo sapiens - REFLIST (20851)	upload_1 (96)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+Microtubule-dependent trafficking of connexons from Golgi to the plasma membrane (R-HSA-190840)	19	3	.09	+	34.29	1.35E-04	2.57E-02
+Transport of connexons to the plasma membrane (R-HSA-190872)	20	3	.09	+	32.58	1.55E-04	2.52E-02
+Post-chaperonin tubulin folding pathway (R-HSA-389977)	22	3	.10	+	29.62	1.99E-04	2.85E-02
+Formation of tubulin folding intermediates by CCT/TriC (R-HSA-389960)	25	3	.12	+	26.06	2.81E-04	3.38E-02
+Activation of AMPK downstream of NMDARs (R-HSA-9619483)	27	3	.12	+	24.13	3.46E-04	3.29E-02
+RHO GTPases activate IQGAPs (R-HSA-5626467)	31	3	.14	+	21.02	5.04E-04	3.71E-02
+Cooperation of Prefoldin and TriC/CCT  in actin and tubulin folding (R-HSA-389958)	32	3	.15	+	20.36	5.49E-04	3.80E-02
+Aggrephagy (R-HSA-9646399)	43	4	.20	+	20.20	6.35E-05	2.42E-02
+Kinesins (R-HSA-983189)	61	5	.28	+	17.80	1.30E-05	9.93E-03
+COPI-independent Golgi-to-ER retrograde traffic (R-HSA-6811436)	52	4	.24	+	16.71	1.27E-04	2.63E-02
+Intraflagellar transport (R-HSA-5620924)	53	4	.24	+	16.39	1.36E-04	2.39E-02
+HSP90 chaperone cycle for steroid hormone receptors (SHR) (R-HSA-3371497)	56	4	.26	+	15.51	1.66E-04	2.53E-02
+Translocation of SLC2A4 (GLUT4) to the plasma membrane (R-HSA-1445148)	71	4	.33	+	12.24	3.93E-04	3.45E-02
+Selective autophagy (R-HSA-9663891)	74	4	.34	+	11.74	4.56E-04	3.59E-02
+Recruitment of NuMA to mitotic centrosomes (R-HSA-380320)	93	5	.43	+	11.68	8.83E-05	2.88E-02
+COPI-dependent Golgi-to-ER retrograde traffic (R-HSA-6811434)	100	5	.46	+	10.86	1.22E-04	2.80E-02
+Golgi-to-ER retrograde transport (R-HSA-8856688)	134	6	.62	+	9.73	4.53E-05	2.07E-02
+EML4 and NUDC in mitotic spindle formation (R-HSA-9648025)	114	5	.52	+	9.53	2.20E-04	2.96E-02
+Resolution of Sister Chromatid Cohesion (R-HSA-2500257)	122	5	.56	+	8.90	2.98E-04	3.40E-02
+MHC class II antigen presentation (R-HSA-2132295)	125	5	.58	+	8.69	3.32E-04	3.44E-02
+Macroautophagy (R-HSA-1632852)	129	5	.59	+	8.42	3.81E-04	3.48E-02
+Factors involved in megakaryocyte development and platelet production (R-HSA-983231)	157	6	.72	+	8.30	1.05E-04	3.01E-02
+RHO GTPases Activate Formins (R-HSA-5663220)	135	5	.62	+	8.04	4.66E-04	3.55E-02
+Mitotic Prometaphase (R-HSA-68877)	198	7	.91	+	7.68	4.43E-05	2.53E-02
+Autophagy (R-HSA-9612973)	144	5	.66	+	7.54	6.19E-04	4.16E-02
+G2/M Transition (R-HSA-69275)	194	6	.89	+	6.72	3.19E-04	3.47E-02
+Mitotic G2-G2/M phases (R-HSA-453274)	196	6	.90	+	6.65	3.37E-04	3.34E-02
+Intra-Golgi and retrograde Golgi-to-ER traffic (R-HSA-6811442)	202	6	.93	+	6.45	3.94E-04	3.33E-02
+RHO GTPase Effectors (R-HSA-195258)	287	7	1.32	+	5.30	4.10E-04	3.35E-02
+M Phase (R-HSA-68886)	353	8	1.63	+	4.92	2.55E-04	3.24E-02
+Cellular responses to stress (R-HSA-2262752)	548	12	2.52	+	4.76	9.60E-06	2.19E-02
+Cellular responses to external stimuli (R-HSA-8953897)	562	12	2.59	+	4.64	1.23E-05	1.40E-02
+Cell Cycle (R-HSA-1640170)	600	11	2.76	+	3.98	1.11E-04	2.82E-02
+Cell Cycle, Mitotic (R-HSA-69278)	495	9	2.28	+	3.95	5.11E-04	3.65E-02

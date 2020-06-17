@@ -193,10 +193,12 @@ class LocalizationClassificationKmers(data.Dataset):
     Loads in the dataset containing given localizations
     If localizations is provided, it will determine the order of features
     """
-    def __init__(self, split='train', localizations=[], trans_parts=['u5', 'cds', 'u3'], k_fold=0, pval_cutoff=0.05, kmer_sizes=[3, 4, 5], addtl_negatives=False, rc_aug=False, include_len=False, fasta_table=os.path.join(DATA_DIR, "parsed_fasta_rel90.txt")):
+    def __init__(self, split:str='train', localizations:List[str]=[], trans_parts:List[str]=['u5', 'cds', 'u3'], k_fold:int=0, pval_cutoff:float=0.05, logfc_cutoff:float=0.0, kmer_sizes:List[int]=[3, 4, 5], addtl_negatives:bool=False, rc_aug:bool=False, include_len:bool=False, split_mito:bool=False, strict_mito:bool=False, drop_mito:bool=False, fasta_table:str=os.path.join(DATA_DIR, "parsed_fasta_rel90.txt")):
         """
         fasta_table is where we read transcript segments
         """
+        strict_cutoff = 1.08531567  # Cutoff for "strict"
+
         if split not in ['train', 'valid', 'test', 'all']:
             raise ValueError("Unrecognized split: {}".format(split))
         assert k_fold < K_FOLDS and k_fold >= -1 * K_FOLDS
@@ -240,7 +242,7 @@ class LocalizationClassificationKmers(data.Dataset):
         padj_matrix[np.isnan(padj_matrix)] = 1  # Set nan to 1 - these will not pass cutoff anyway and avoids error thrown
         log2fc_matrix = self.full_deseq_table.loc[:, [self.log2fc_colnames[c] for c in self.compartments]]
         log2fc_matrix[np.isnan(log2fc_matrix)] = 0  # Set nan to 0 as this will not trip the cutoff
-        is_significant = np.any(np.logical_and(padj_matrix <= pval_cutoff, log2fc_matrix > 0), axis=1)  # Just needs significant in at least 1 column
+        is_significant = np.any(np.logical_and(padj_matrix <= pval_cutoff, log2fc_matrix > logfc_cutoff), axis=1)  # Just needs significant in at least 1 column
         logging.info("Retaining {}/{} genes as significant".format(np.sum(is_significant), len(is_significant)))
         discard_genes = [gene for i, gene in enumerate(self.full_deseq_table.index) if not is_significant[i]]
         # Pick some genes to keep even though they're not significantly localized anywhere
@@ -253,6 +255,17 @@ class LocalizationClassificationKmers(data.Dataset):
             self.negative_genes = set()  # Empty set
         self.full_deseq_table.drop(inplace=True, index=discard_genes)
         assert self.full_deseq_table.shape[0] == np.sum(is_significant) + len(self.negative_genes)
+
+        if drop_mito:
+            # print(self.full_deseq_table)
+            drop_idx, drop_genes = [], []
+            assert not self.negative_genes
+            assert not (split_mito or strict_mito)
+            for gene, row in self.full_deseq_table.iterrows():
+                if row["Mito_padj"] <= pval_cutoff and row["Mito_log2FoldChange"] > 0 and row["Mito_log2FoldChange"] < strict_cutoff:
+                    drop_genes.append(gene)
+            logging.info(f"Dropping {len(drop_genes)} genes for low positive mito label")
+            self.full_deseq_table.drop(inplace=True, index=drop_genes)
 
         # randomize, drop based on train/valid/test
         np.random.seed(332133)  # Do not change
@@ -292,7 +305,8 @@ class LocalizationClassificationKmers(data.Dataset):
         if addtl_negatives:
             negative_gene_indices = [i for i, gene in enumerate(self.full_deseq_table.index) if gene in self.negative_genes]
             self.log2fc_matrix[negative_gene_indices, :] = 0  # Zero out negative genes
-        self.truth_matrix = np.logical_and(self.log2fc_matrix > 0, self.padj_matrix <= pval_cutoff)
+        self.truth_matrix = np.logical_and(self.log2fc_matrix > logfc_cutoff, self.padj_matrix <= pval_cutoff)
+        self.truth_matrix_strict = np.logical_and(self.log2fc_matrix > strict_cutoff, self.padj_matrix <= pval_cutoff)
         per_category_positives = np.sum(self.truth_matrix.astype(int), axis=0)
         for compartment, count in zip(self.compartments, per_category_positives):
             logging.info(f"{compartment} - {count}/{self.log2fc_matrix.shape[0]} = {count / self.log2fc_matrix.shape[0]} positive")
@@ -305,8 +319,11 @@ class LocalizationClassificationKmers(data.Dataset):
         self.pval_cutoff = pval_cutoff
         self.split = split
         self.include_len = include_len
+        self.split_mito = split_mito  # Appends a "canonical" mito column to truth
+        self.strict_mito = strict_mito  # Applies a harser cutoff to mito
 
         # Load in auxillary files
+        self.trans_to_exons = utils.read_gtf_trans_to_exons()
         self.fasta_dict = fasta_to_dict(os.path.join(DATA_DIR, "Homo_sapiens.GRCh38.merge.90.fa"))  # dict
         self.fasta_table = load_fasta_table(fasta_table)  # This is a dataframe
         genes_to_transcripts_table = pd.read_csv(
@@ -363,10 +380,21 @@ class LocalizationClassificationKmers(data.Dataset):
             retval = tuple([reverse_complement(s) for s in retval])
         return retval
 
-    def get_ith_labels(self, i):
+    def get_ith_labels(self, i:int) -> np.ndarray:
         """Return the ith labels, considering reverse complementing status"""
         effective_index = i if not self.rc_aug else i // 2
         retval = self.truth_matrix[np.newaxis, effective_index, :].astype(int)
+        assert not (self.strict_mito and self.split_mito)
+        if self.split_mito:  # Append another value, which is the "canonical" mito
+            trans_chrom = self.get_ith_trans_chrom(i)
+            newval = 0.
+            if trans_chrom == "MT" and retval[0, 2] > 0:  # Mito matrix index is 2
+                retval[0, 2] = 0  # Set the "noncanonincal" mito to 0
+                newval = 1.
+            retval = np.append(retval, np.atleast_2d(newval), axis=1)
+        if self.strict_mito:
+            retval[0, 2] = self.truth_matrix_strict[effective_index, 2]
+
         assert len(retval.shape) == 2
         return retval
 
@@ -375,6 +403,22 @@ class LocalizationClassificationKmers(data.Dataset):
         gene = self.full_deseq_table.index[i if not self.rc_aug else i // 2]
         transcript = self.get_representative_trans(gene)
         return transcript
+
+    def get_ith_trans_chrom(self, i:int) -> str:
+        """Get chrom of the ith transcript"""
+        transcript = self.get_ith_trans_name(i).split(".")[0]
+        chroms = {exon[1] for exon in self.trans_to_exons[transcript]}
+        retval = ""
+        if chroms:
+            assert len(chroms) == 1
+            retval = chroms.pop()
+        return retval
+
+    def get_ith_trans_type(self, i: int) -> str:
+        """Get transcript type of the ith transcript"""
+        effective_index = i if not self.rc_aug else i // 2
+        retval = self.full_deseq_table['gene_type'][effective_index]
+        return retval
 
     def __getitem__(self, i):
         """Get one sample of data"""
