@@ -50,6 +50,21 @@ PLOTTED_ORFS = [
     "orf10",
 ]
 
+NORMALIZED_ORF_NAMES = {
+    "orf1ab": "ORF1ab",
+    "s": "S",
+    "orf3a": "ORF3a",
+    "e": "E",
+    "m": "M",
+    "orf6": "ORF6",
+    "orf7a": "ORF7a",
+    "orf7b": "ORF7b",
+    "orf8": "ORF8",
+    "n": "N",
+    "orf10": "ORF10",
+}
+assert set(NORMALIZED_ORF_NAMES.keys()) == set(PLOTTED_ORFS)
+
 
 def heatmap(
     mat: pd.DataFrame,
@@ -105,7 +120,14 @@ def heatmap(
     )
     axis_fontsize = 16
     ax1.set_yticklabels(
-        mat.index, rotation=0, ha="right", size=axis_fontsize, weight="normal"
+        [
+            (NORMALIZED_ORF_NAMES[i] if i in NORMALIZED_ORF_NAMES else i)
+            for i in mat.index
+        ],
+        rotation=0,
+        ha="right",
+        size=axis_fontsize,
+        weight="normal",
     )
     ax1.set_xticklabels(
         mat.columns, rotation=45, ha="right", size=axis_fontsize, weight="normal"
