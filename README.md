@@ -31,5 +31,5 @@ conda install -c conda-forge xgboost=0.82
 
 ## Relevant works
 
-* Wu, K.E., Parker, K.R., Fazal, F.M., Chang, H., and Zou, J. (2020). RNA-GPS predicts high-resolution RNA subcellular localization and highlights the role of splicing. RNA.
-* Wu, K.E., Fazal, F.M., Parker, K.R., Zou, J., and Chang, H.Y. (2020). RNA-GPS Predicts SARS-CoV-2 RNA Residency to Host Mitochondria and Nucleolus. Cell Systems.
+* Wu, K.E., Parker, K.R., Fazal, F.M., Chang, H., and Zou, J. (2020). RNA-GPS predicts high-resolution RNA subcellular localization and highlights the role of splicing. RNA. [link](https://rnajournal.cshlp.org/content/early/2020/03/27/rna.074161.119.abstract)
+* Wu, K.E., Fazal, F.M., Parker, K.R., Zou, J., and Chang, H.Y. (2020). RNA-GPS Predicts SARS-CoV-2 RNA Residency to Host Mitochondria and Nucleolus. Cell Systems. [link](https://www.cell.com/cell-systems/pdf/S2405-4712(20)30237-4.pdf)
