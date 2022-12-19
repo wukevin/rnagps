@@ -1,0 +1,619 @@
+RBP_ID	Family_ID	RSource_ID	Motif_ID	MSource_ID	DBID	RBP_Name	RBP_Species	RBP_Status	Family_Name	RBDs	RBD_Count	Cutoff	DBID	Motif_Type	MSource_Identifier	MSource_Type	MSource_Author	MSource_Year	PMID	MSource_Version	RBPSource_Name	RBPSource_URL	RBPSource_Year	RBPSource_Month	RBPSource_Day
+T00060_0.6	F09_0.6	TS19_0.6	.	.	ENSG00000160917	CPSF4	Homo_sapiens	N	CCCH ZF,CCHC ZF	zf-CCCH,zf-CCHC	2	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T00506_0.6	F15_0.6	TS19_0.6	.	.	ENSG00000086589	RBM22	Homo_sapiens	N	CCCH ZF,RRM	zf-CCCH,RRM_1	2	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T00507_0.6	F15_0.6	TS19_0.6	.	.	ENSG00000091009	RBM27	Homo_sapiens	N	CCCH ZF,RRM	zf-CCCH,RRM_1	2	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T00508_0.6	F15_0.6	TS19_0.6	.	.	ENSG00000139746	RBM26	Homo_sapiens	N	CCCH ZF,RRM	zf-CCCH,RRM_1	2	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T00509_0.6	F15_0.6	TS19_0.6	.	.	ENSG00000160201	U2AF1	Homo_sapiens	N	CCCH ZF,RRM	zf-CCCH,RRM_1	2	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T00510_0.6	F15_0.6	TS19_0.6	.	.	ENSG00000161265	U2AF1L4	Homo_sapiens	N	CCCH ZF,RRM	zf-CCCH,RRM_1	2	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T00511_0.6	F15_0.6	TS19_0.6	.	.	ENSG00000169249	ZRSR2	Homo_sapiens	N	CCCH ZF,RRM	zf-CCCH,RRM_1	2	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T00512_0.6	F15_0.6	TS19_0.6	.	.	ENSG00000212643	ZRSR1	Homo_sapiens	N	CCCH ZF,RRM	zf-CCCH,RRM_1	2	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02625_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000014164	ZC3H3	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02626_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000056586	RC3H2	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02627_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000059145	UNKL	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02628_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000059378	PARP12	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02629_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000065548	ZC3H15	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02630_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000075975	MKRN2	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02631_0.6	F17_0.6	TS19_0.6	M037_0.6	MS2_0.6	ENSG00000076770	MBNL3	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	RNCMPT00038	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02631_0.6	F17_0.6	TS19_0.6	M320_0.6	MS1_0.6	ENSG00000076770	MBNL3	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	669_20071745	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02632_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000100319	ZMAT5	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02633_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000100403	ZC3H7B	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02634_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000104907	TRMT1	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02635_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000122299	ZC3H7A	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02636_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000123200	ZC3H13	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02637_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000125352	RNF113A	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02638_0.6	F17_0.6	TS19_0.6	M263_0.6	MS1_0.6	ENSG00000128016	ZFP36	Homo_sapiens	D	CCCH ZF	zf-CCCH	1	0.70	193_18367721	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02638_0.6	F17_0.6	TS19_0.6	M264_0.6	MS1_0.6	ENSG00000128016	ZFP36	Homo_sapiens	D	CCCH ZF	zf-CCCH	1	0.70	193_18367721.1	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02638_0.6	F17_0.6	TS19_0.6	M265_0.6	MS1_0.6	ENSG00000128016	ZFP36	Homo_sapiens	D	CCCH ZF	zf-CCCH	1	0.70	193_18367721.2	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02638_0.6	F17_0.6	TS19_0.6	M266_0.6	MS1_0.6	ENSG00000128016	ZFP36	Homo_sapiens	D	CCCH ZF	zf-CCCH	1	0.70	193_18367721.3	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02638_0.6	F17_0.6	TS19_0.6	M267_0.6	MS1_0.6	ENSG00000128016	ZFP36	Homo_sapiens	D	CCCH ZF	zf-CCCH	1	0.70	194_18256032	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02638_0.6	F17_0.6	TS19_0.6	M268_0.6	MS1_0.6	ENSG00000128016	ZFP36	Homo_sapiens	D	CCCH ZF	zf-CCCH	1	0.70	194_18256032.1	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02638_0.6	F17_0.6	TS19_0.6	M269_0.6	MS1_0.6	ENSG00000128016	ZFP36	Homo_sapiens	D	CCCH ZF	zf-CCCH	1	0.70	221_12324455	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02638_0.6	F17_0.6	TS19_0.6	M350_0.6	MS1_0.6	ENSG00000128016	ZFP36	Homo_sapiens	D	CCCH ZF	zf-CCCH	1	0.70	951_12324455	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02639_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000130749	ZC3H4	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02640_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000132478	UNK	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02641_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000132773	TOE1	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02642_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000133606	MKRN1	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02643_0.6	F17_0.6	TS19_0.6	M083_0.6	MS2_0.6	ENSG00000135482	ZC3H10	Homo_sapiens	D	CCCH ZF	zf-CCCH	1	0.70	RNCMPT00085	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02644_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000135870	RC3H1	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02645_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000136243	NUPL2	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02646_0.6	F17_0.6	TS19_0.6	M037_0.6	MS2_0.6	ENSG00000139793	MBNL2	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	RNCMPT00038	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02646_0.6	F17_0.6	TS19_0.6	M320_0.6	MS1_0.6	ENSG00000139793	MBNL2	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	669_20071745	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02647_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000139797	RNF113B	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02648_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000141994	DUS3L	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02649_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000144161	ZC3H8	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02650_0.6	F17_0.6	TS19_0.6	M263_0.6	MS1_0.6	ENSG00000152518	ZFP36L2	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	193_18367721	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02650_0.6	F17_0.6	TS19_0.6	M264_0.6	MS1_0.6	ENSG00000152518	ZFP36L2	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	193_18367721.1	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02650_0.6	F17_0.6	TS19_0.6	M265_0.6	MS1_0.6	ENSG00000152518	ZFP36L2	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	193_18367721.2	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02650_0.6	F17_0.6	TS19_0.6	M266_0.6	MS1_0.6	ENSG00000152518	ZFP36L2	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	193_18367721.3	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02650_0.6	F17_0.6	TS19_0.6	M267_0.6	MS1_0.6	ENSG00000152518	ZFP36L2	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	194_18256032	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02650_0.6	F17_0.6	TS19_0.6	M268_0.6	MS1_0.6	ENSG00000152518	ZFP36L2	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	194_18256032.1	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02650_0.6	F17_0.6	TS19_0.6	M269_0.6	MS1_0.6	ENSG00000152518	ZFP36L2	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	221_12324455	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02650_0.6	F17_0.6	TS19_0.6	M350_0.6	MS1_0.6	ENSG00000152518	ZFP36L2	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	951_12324455	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02651_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000152520	PAN3	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02652_0.6	F17_0.6	TS19_0.6	M037_0.6	MS2_0.6	ENSG00000152601	MBNL1	Homo_sapiens	D	CCCH ZF	zf-CCCH	1	0.70	RNCMPT00038	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02652_0.6	F17_0.6	TS19_0.6	M320_0.6	MS1_0.6	ENSG00000152601	MBNL1	Homo_sapiens	D	CCCH ZF	zf-CCCH	1	0.70	669_20071745	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02653_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000158545	ZC3H18	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02654_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000163214	DHX57	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02655_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000179455	MKRN3	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02656_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000182909	LENG9	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02657_0.6	F17_0.6	TS19_0.6	M263_0.6	MS1_0.6	ENSG00000185650	ZFP36L1	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	193_18367721	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02657_0.6	F17_0.6	TS19_0.6	M264_0.6	MS1_0.6	ENSG00000185650	ZFP36L1	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	193_18367721.1	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02657_0.6	F17_0.6	TS19_0.6	M265_0.6	MS1_0.6	ENSG00000185650	ZFP36L1	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	193_18367721.2	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02657_0.6	F17_0.6	TS19_0.6	M266_0.6	MS1_0.6	ENSG00000185650	ZFP36L1	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	193_18367721.3	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02657_0.6	F17_0.6	TS19_0.6	M267_0.6	MS1_0.6	ENSG00000185650	ZFP36L1	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	194_18256032	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02657_0.6	F17_0.6	TS19_0.6	M268_0.6	MS1_0.6	ENSG00000185650	ZFP36L1	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	194_18256032.1	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02657_0.6	F17_0.6	TS19_0.6	M269_0.6	MS1_0.6	ENSG00000185650	ZFP36L1	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	221_12324455	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02657_0.6	F17_0.6	TS19_0.6	M350_0.6	MS1_0.6	ENSG00000185650	ZFP36L1	Homo_sapiens	I	CCCH ZF	zf-CCCH	1	0.70	951_12324455	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02658_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000187959	CPSF4L	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02659_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000188177	ZC3H6	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02660_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000197114	ZGPAT	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02661_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000198265	HELZ	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02662_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000204569	PPP1R10	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02663_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000204576	PRR3	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02664_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000206489	BX248507.1	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02665_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000206491	BX000357.2	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02666_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000223766	BX927220.1	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02667_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000223887	CR388372.1	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02668_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000227804	CR753328.1	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02669_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000228186	AL662825.2	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02670_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000229202	BX248518.2	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02671_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000230995	AL662825.3	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02672_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000231737	BX908728.4	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02673_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000233564	CR847863.1	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02674_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000235291	CR759778.5	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T02675_0.6	F17_0.6	TS19_0.6	.	.	ENSG00000238104	BX119957.7	Homo_sapiens	N	CCCH ZF	zf-CCCH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T06788_0.6	F20_0.6	TS19_0.6	M035_0.6	MS2_0.6	ENSG00000131914	LIN28A	Homo_sapiens	D	CCHC ZF,CSD	zf-CCHC,CSD	2	0.70	RNCMPT00036	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T06788_0.6	F20_0.6	TS19_0.6	M153_0.6	MS2_0.6	ENSG00000131914	LIN28A	Homo_sapiens	D	CCHC ZF,CSD	zf-CCHC,CSD	2	0.70	RNCMPT00162	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T06789_0.6	F20_0.6	TS19_0.6	M035_0.6	MS2_0.6	ENSG00000187772	LIN28B	Homo_sapiens	I	CCHC ZF,CSD	zf-CCHC,CSD	2	0.70	RNCMPT00036	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T06789_0.6	F20_0.6	TS19_0.6	M153_0.6	MS2_0.6	ENSG00000187772	LIN28B	Homo_sapiens	I	CCHC ZF,CSD	zf-CCHC,CSD	2	0.70	RNCMPT00162	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T06997_0.6	F23_0.6	TS19_0.6	.	.	ENSG00000168066	SF1	Homo_sapiens	N	CCHC ZF,KH	zf-CCHC,KH_1	2	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T07243_0.6	F25_0.6	TS19_0.6	M071_0.6	MS2_0.6	ENSG00000115875	SRSF7	Homo_sapiens	D	CCHC ZF,RRM	zf-CCHC,RRM_1	2	0.70	RNCMPT00073	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T07243_0.6	F25_0.6	TS19_0.6	M331_0.6	MS1_0.6	ENSG00000115875	SRSF7	Homo_sapiens	D	CCHC ZF,RRM	zf-CCHC,RRM_1	2	0.70	790_10094314	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T07243_0.6	F25_0.6	TS19_0.6	M353_0.6	MS1_0.6	ENSG00000115875	SRSF7	Homo_sapiens	D	CCHC ZF,RRM	zf-CCHC,RRM_1	2	0.70	954_10094314	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T07244_0.6	F25_0.6	TS19_0.6	M085_0.6	MS2_0.6	ENSG00000139168	ZCRB1	Homo_sapiens	D	CCHC ZF,RRM	zf-CCHC,RRM_1	2	0.70	RNCMPT00087	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T07245_0.6	F25_0.6	TS19_0.6	M050_0.6	MS2_0.6	ENSG00000173914	RBM4B	Homo_sapiens	I	CCHC ZF,RRM	zf-CCHC,RRM_1	2	0.70	RNCMPT00052	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T07245_0.6	F25_0.6	TS19_0.6	M109_0.6	MS2_0.6	ENSG00000173914	RBM4B	Homo_sapiens	I	CCHC ZF,RRM	zf-CCHC,RRM_1	2	0.70	RNCMPT00113	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T07246_0.6	F25_0.6	TS19_0.6	M050_0.6	MS2_0.6	ENSG00000173933	RBM4	Homo_sapiens	I	CCHC ZF,RRM	zf-CCHC,RRM_1	2	0.70	RNCMPT00052	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T07246_0.6	F25_0.6	TS19_0.6	M109_0.6	MS2_0.6	ENSG00000173933	RBM4	Homo_sapiens	I	CCHC ZF,RRM	zf-CCHC,RRM_1	2	0.70	RNCMPT00113	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T07247_0.6	F25_0.6	TS19_0.6	.	.	ENSG00000248643	RBM14-RBM4	Homo_sapiens	N	CCHC ZF,RRM	zf-CCHC,RRM_1	2	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T07765_0.6	F27_0.6	TS19_0.6	.	.	ENSG00000140948	ZCCHC14	Homo_sapiens	N	CCHC ZF,SAM	zf-CCHC,SAM_1	2	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T10179_0.6	F28_0.6	TS19_0.6	.	.	ENSG00000033030	ZCCHC8	Homo_sapiens	N	CCHC ZF	zf-CCHC	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T10180_0.6	F28_0.6	TS19_0.6	.	.	ENSG00000083223	ZCCHC6	Homo_sapiens	N	CCHC ZF	zf-CCHC	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T10181_0.6	F28_0.6	TS19_0.6	.	.	ENSG00000122257	RBBP6	Homo_sapiens	N	CCHC ZF	zf-CCHC	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T10182_0.6	F28_0.6	TS19_0.6	.	.	ENSG00000131732	ZCCHC9	Homo_sapiens	N	CCHC ZF	zf-CCHC	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T10183_0.6	F28_0.6	TS19_0.6	.	.	ENSG00000134744	ZCCHC11	Homo_sapiens	N	CCHC ZF	zf-CCHC	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T10184_0.6	F28_0.6	TS19_0.6	.	.	ENSG00000141664	ZCCHC2	Homo_sapiens	N	CCHC ZF	zf-CCHC	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T10185_0.6	F28_0.6	TS19_0.6	.	.	ENSG00000147905	ZCCHC7	Homo_sapiens	N	CCHC ZF	zf-CCHC	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T10186_0.6	F28_0.6	TS19_0.6	.	.	ENSG00000169714	CNBP	Homo_sapiens	N	CCHC ZF	zf-CCHC	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T10187_0.6	F28_0.6	TS19_0.6	.	.	ENSG00000177764	ZCCHC3	Homo_sapiens	N	CCHC ZF	zf-CCHC	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T10188_0.6	F28_0.6	TS19_0.6	.	.	ENSG00000179300	ZCCHC5	Homo_sapiens	N	CCHC ZF	zf-CCHC	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T10189_0.6	F28_0.6	TS19_0.6	.	.	ENSG00000183258	DDX41	Homo_sapiens	N	CCHC ZF	zf-CCHC	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T10190_0.6	F28_0.6	TS19_0.6	.	.	ENSG00000183837	PNMA3	Homo_sapiens	N	CCHC ZF	zf-CCHC	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T10191_0.6	F28_0.6	TS19_0.6	.	.	ENSG00000187969	ZCCHC13	Homo_sapiens	N	CCHC ZF	zf-CCHC	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T10192_0.6	F28_0.6	TS19_0.6	.	.	ENSG00000229924	RP11-1286E23.4	Homo_sapiens	N	CCHC ZF	zf-CCHC	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T10193_0.6	F28_0.6	TS19_0.6	.	.	ENSG00000242265	PEG10	Homo_sapiens	N	CCHC ZF	zf-CCHC	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T16509_0.6	F29_0.6	TS19_0.6	.	.	ENSG00000169621	APLF	Homo_sapiens	N	CCHH ZF	zf-CCHH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T16852_0.6	F30_0.6	TS19_0.6	M082_0.6	MS2_0.6	ENSG00000006047	YBX2	Homo_sapiens	D	CSD	CSD	1	0.70	RNCMPT00084	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T16853_0.6	F30_0.6	TS19_0.6	.	.	ENSG00000009307	CSDE1	Homo_sapiens	N	CSD	CSD	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T16854_0.6	F30_0.6	TS19_0.6	M081_0.6	MS2_0.6	ENSG00000060138	CSDA	Homo_sapiens	I	CSD	CSD	1	0.70	RNCMPT00083	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T16854_0.6	F30_0.6	TS19_0.6	M082_0.6	MS2_0.6	ENSG00000060138	CSDA	Homo_sapiens	I	CSD	CSD	1	0.70	RNCMPT00084	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T16854_0.6	F30_0.6	TS19_0.6	M111_0.6	MS2_0.6	ENSG00000060138	CSDA	Homo_sapiens	I	CSD	CSD	1	0.70	RNCMPT00116	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T16854_0.6	F30_0.6	TS19_0.6	M250_0.6	MS1_0.6	ENSG00000060138	CSDA	Homo_sapiens	I	CSD	CSD	1	0.70	114_7499328	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T16854_0.6	F30_0.6	TS19_0.6	M254_0.6	MS1_0.6	ENSG00000060138	CSDA	Homo_sapiens	I	CSD	CSD	1	0.70	115_7499328	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T16854_0.6	F30_0.6	TS19_0.6	M260_0.6	MS1_0.6	ENSG00000060138	CSDA	Homo_sapiens	I	CSD	CSD	1	0.70	130_11376140	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T16855_0.6	F30_0.6	TS19_0.6	M081_0.6	MS2_0.6	ENSG00000065978	YB-1	Homo_sapiens	D	CSD	CSD	1	0.70	RNCMPT00083	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T16855_0.6	F30_0.6	TS19_0.6	M111_0.6	MS2_0.6	ENSG00000065978	YB-1	Homo_sapiens	D	CSD	CSD	1	0.70	RNCMPT00116	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T16856_0.6	F30_0.6	TS19_0.6	.	.	ENSG00000153048	CARHSP1	Homo_sapiens	N	CSD	CSD	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T16857_0.6	F30_0.6	TS19_0.6	.	.	ENSG00000172346	CSDC2	Homo_sapiens	N	CSD	CSD	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18784_0.6	F35_0.6	TS19_0.6	.	.	ENSG00000080007	DDX43	Homo_sapiens	N	KH	KH_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18785_0.6	F35_0.6	TS19_0.6	M339_0.6	MS1_0.6	ENSG00000088247	KHSRP	Homo_sapiens	D	KH	KH_1	1	0.70	906_17437629	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18785_0.6	F35_0.6	TS19_0.6	M340_0.6	MS1_0.6	ENSG00000088247	KHSRP	Homo_sapiens	D	KH	KH_1	1	0.70	906_17437629.1	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18785_0.6	F35_0.6	TS19_0.6	M341_0.6	MS1_0.6	ENSG00000088247	KHSRP	Homo_sapiens	D	KH	KH_1	1	0.70	906_17437629.2	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18785_0.6	F35_0.6	TS19_0.6	M342_0.6	MS1_0.6	ENSG00000088247	KHSRP	Homo_sapiens	D	KH	KH_1	1	0.70	906_17437629.3	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18786_0.6	F35_0.6	TS19_0.6	M043_0.6	MS2_0.6	ENSG00000090097	PCBP4	Homo_sapiens	I	KH	KH_1	1	0.70	RNCMPT00044	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18786_0.6	F35_0.6	TS19_0.6	M177_0.6	MS2_0.6	ENSG00000090097	PCBP4	Homo_sapiens	I	KH	KH_1	1	0.70	RNCMPT00186	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18786_0.6	F35_0.6	TS19_0.6	M188_0.6	MS2_0.6	ENSG00000090097	PCBP4	Homo_sapiens	I	KH	KH_1	1	0.70	RNCMPT00215	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18786_0.6	F35_0.6	TS19_0.6	M207_0.6	MS2_0.6	ENSG00000090097	PCBP4	Homo_sapiens	I	KH	KH_1	1	0.70	RNCMPT00239	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18786_0.6	F35_0.6	TS19_0.6	M211_0.6	MS2_0.6	ENSG00000090097	PCBP4	Homo_sapiens	I	KH	KH_1	1	0.70	RNCMPT00246	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18787_0.6	F35_0.6	TS19_0.6	M016_0.6	MS2_0.6	ENSG00000102081	FMR1	Homo_sapiens	D	KH	KH_1	1	0.70	RNCMPT00016	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18787_0.6	F35_0.6	TS19_0.6	M304_0.6	MS1_0.6	ENSG00000102081	FMR1	Homo_sapiens	D	KH	KH_1	1	0.70	471_15805463	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18787_0.6	F35_0.6	TS19_0.6	M305_0.6	MS1_0.6	ENSG00000102081	FMR1	Homo_sapiens	D	KH	KH_1	1	0.70	471_15805463.1	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18788_0.6	F35_0.6	TS19_0.6	M323_0.6	MS1_0.6	ENSG00000104967	NOVA2	Homo_sapiens	D	KH	KH_1	1	0.70	680_9789075	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18788_0.6	F35_0.6	TS19_0.6	M325_0.6	MS1_0.6	ENSG00000104967	NOVA2	Homo_sapiens	D	KH	KH_1	1	0.70	682_10811881	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18789_0.6	F35_0.6	TS19_0.6	.	.	ENSG00000107164	FUBP3	Homo_sapiens	N	KH	KH_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18790_0.6	F35_0.6	TS19_0.6	.	.	ENSG00000111615	KRR1	Homo_sapiens	N	KH	KH_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18791_0.6	F35_0.6	TS19_0.6	M176_0.6	MS2_0.6	ENSG00000112232	KHDRBS2	Homo_sapiens	D	KH	KH_1	1	0.70	RNCMPT00185	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18792_0.6	F35_0.6	TS19_0.6	M046_0.6	MS2_0.6	ENSG00000112531	QKI	Homo_sapiens	D	KH	KH_1	1	0.70	RNCMPT00047	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18792_0.6	F35_0.6	TS19_0.6	M262_0.6	MS1_0.6	ENSG00000112531	QKI	Homo_sapiens	D	KH	KH_1	1	0.70	149_16041388	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18792_0.6	F35_0.6	TS19_0.6	M281_0.6	MS1_0.6	ENSG00000112531	QKI	Homo_sapiens	D	KH	KH_1	1	0.70	279_20371350	PAR-clip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18793_0.6	F35_0.6	TS19_0.6	M152_0.6	MS2_0.6	ENSG00000114416	FXR1	Homo_sapiens	D	KH	KH_1	1	0.70	RNCMPT00161	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18794_0.6	F35_0.6	TS19_0.6	.	.	ENSG00000115677	HDLBP	Homo_sapiens	N	KH	KH_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18795_0.6	F35_0.6	TS19_0.6	.	.	ENSG00000115946	PNO1	Homo_sapiens	N	KH	KH_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18796_0.6	F35_0.6	TS19_0.6	.	.	ENSG00000121057	AKAP1	Homo_sapiens	N	KH	KH_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18797_0.6	F35_0.6	TS19_0.6	M160_0.6	MS2_0.6	ENSG00000121774	KHDRBS1	Homo_sapiens	D	KH	KH_1	1	0.70	RNCMPT00169	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18798_0.6	F35_0.6	TS19_0.6	M020_0.6	MS2_0.6	ENSG00000129245	FXR2	Homo_sapiens	D	KH	KH_1	1	0.70	RNCMPT00020	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18799_0.6	F35_0.6	TS19_0.6	M002_0.6	MS2_0.6	ENSG00000131503	ANKHD1	Homo_sapiens	D	KH	KH_1	1	0.70	RNCMPT00002	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18800_0.6	F35_0.6	TS19_0.6	M033_0.6	MS2_0.6	ENSG00000131773	KHDRBS3	Homo_sapiens	D	KH	KH_1	1	0.70	RNCMPT00034	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18801_0.6	F35_0.6	TS19_0.6	M002_0.6	MS2_0.6	ENSG00000132466	ANKRD17	Homo_sapiens	I	KH	KH_1	1	0.70	RNCMPT00002	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18802_0.6	F35_0.6	TS19_0.6	.	.	ENSG00000132591	ERAL1	Homo_sapiens	N	KH	KH_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18803_0.6	F35_0.6	TS19_0.6	.	.	ENSG00000138303	ASCC1	Homo_sapiens	N	KH	KH_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18804_0.6	F35_0.6	TS19_0.6	M322_0.6	MS1_0.6	ENSG00000139910	NOVA1	Homo_sapiens	D	KH	KH_1	1	0.70	679_9154818	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18804_0.6	F35_0.6	TS19_0.6	M324_0.6	MS1_0.6	ENSG00000139910	NOVA1	Homo_sapiens	D	KH	KH_1	1	0.70	681_10811881	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18805_0.6	F35_0.6	TS19_0.6	M339_0.6	MS1_0.6	ENSG00000162613	FUBP1	Homo_sapiens	I	KH	KH_1	1	0.70	906_17437629	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18805_0.6	F35_0.6	TS19_0.6	M340_0.6	MS1_0.6	ENSG00000162613	FUBP1	Homo_sapiens	I	KH	KH_1	1	0.70	906_17437629.1	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18805_0.6	F35_0.6	TS19_0.6	M341_0.6	MS1_0.6	ENSG00000162613	FUBP1	Homo_sapiens	I	KH	KH_1	1	0.70	906_17437629.2	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18805_0.6	F35_0.6	TS19_0.6	M342_0.6	MS1_0.6	ENSG00000162613	FUBP1	Homo_sapiens	I	KH	KH_1	1	0.70	906_17437629.3	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18806_0.6	F35_0.6	TS19_0.6	M026_0.6	MS2_0.6	ENSG00000165119	hnRNPK	Homo_sapiens	D	KH	KH_1	1	0.70	RNCMPT00026	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18807_0.6	F35_0.6	TS19_0.6	M177_0.6	MS2_0.6	ENSG00000169564	PCBP1	Homo_sapiens	D	KH	KH_1	1	0.70	RNCMPT00186	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18808_0.6	F35_0.6	TS19_0.6	M122_0.6	MS2_0.6	ENSG00000176624	MEX3C	Homo_sapiens	I	KH	KH_1	1	0.70	RNCMPT00129	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18809_0.6	F35_0.6	TS19_0.6	M122_0.6	MS2_0.6	ENSG00000181588	MEX3D	Homo_sapiens	I	KH	KH_1	1	0.70	RNCMPT00129	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18810_0.6	F35_0.6	TS19_0.6	.	.	ENSG00000182134	TDRKH	Homo_sapiens	N	KH	KH_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18811_0.6	F35_0.6	TS19_0.6	M122_0.6	MS2_0.6	ENSG00000183496	MEX3B	Homo_sapiens	I	KH	KH_1	1	0.70	RNCMPT00129	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18812_0.6	F35_0.6	TS19_0.6	M043_0.6	MS2_0.6	ENSG00000183570	PCBP3	Homo_sapiens	I	KH	KH_1	1	0.70	RNCMPT00044	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18812_0.6	F35_0.6	TS19_0.6	M177_0.6	MS2_0.6	ENSG00000183570	PCBP3	Homo_sapiens	I	KH	KH_1	1	0.70	RNCMPT00186	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18812_0.6	F35_0.6	TS19_0.6	M188_0.6	MS2_0.6	ENSG00000183570	PCBP3	Homo_sapiens	I	KH	KH_1	1	0.70	RNCMPT00215	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18812_0.6	F35_0.6	TS19_0.6	M207_0.6	MS2_0.6	ENSG00000183570	PCBP3	Homo_sapiens	I	KH	KH_1	1	0.70	RNCMPT00239	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18812_0.6	F35_0.6	TS19_0.6	M211_0.6	MS2_0.6	ENSG00000183570	PCBP3	Homo_sapiens	I	KH	KH_1	1	0.70	RNCMPT00246	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18813_0.6	F35_0.6	TS19_0.6	.	.	ENSG00000184735	DDX53	Homo_sapiens	N	KH	KH_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18814_0.6	F35_0.6	TS19_0.6	M043_0.6	MS2_0.6	ENSG00000197111	PCBP2	Homo_sapiens	D	KH	KH_1	1	0.70	RNCMPT00044	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18815_0.6	F35_0.6	TS19_0.6	.	.	ENSG00000203909	DPPA5	Homo_sapiens	N	KH	KH_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18816_0.6	F35_0.6	TS19_0.6	M323_0.6	MS1_0.6	ENSG00000248163	ENSG00000248163	Homo_sapiens	I	KH	KH_1	1	0.70	680_9789075	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18816_0.6	F35_0.6	TS19_0.6	M325_0.6	MS1_0.6	ENSG00000248163	ENSG00000248163	Homo_sapiens	I	KH	KH_1	1	0.70	682_10811881	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18816_0.6	F35_0.6	TS19_0.6	M326_0.6	MS1_0.6	ENSG00000248163	ENSG00000248163	Homo_sapiens	I	KH	KH_1	1	0.70	685_18978773	CLIP-seq	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18817_0.6	F35_0.6	TS19_0.6	M002_0.6	MS2_0.6	ENSG00000249536	ENSG00000249536	Homo_sapiens	I	KH	KH_1	1	0.70	RNCMPT00002	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18818_0.6	F35_0.6	TS19_0.6	M323_0.6	MS1_0.6	ENSG00000249644	ENSG00000249644	Homo_sapiens	I	KH	KH_1	1	0.70	680_9789075	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18818_0.6	F35_0.6	TS19_0.6	M325_0.6	MS1_0.6	ENSG00000249644	ENSG00000249644	Homo_sapiens	I	KH	KH_1	1	0.70	682_10811881	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T18818_0.6	F35_0.6	TS19_0.6	M326_0.6	MS1_0.6	ENSG00000249644	ENSG00000249644	Homo_sapiens	I	KH	KH_1	1	0.70	685_18978773	CLIP-seq	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T22209_0.6	F38_0.6	TS19_0.6	M032_0.6	MS2_0.6	ENSG00000073792	IGF2BP2	Homo_sapiens	D	KH,RRM	KH_1,RRM_1	2	0.70	RNCMPT00033	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T22209_0.6	F38_0.6	TS19_0.6	M294_0.6	MS1_0.6	ENSG00000073792	IGF2BP2	Homo_sapiens	D	KH,RRM	KH_1,RRM_1	2	0.70	356_20371350	PAR-clip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T22210_0.6	F38_0.6	TS19_0.6	M163_0.6	MS2_0.6	ENSG00000136231	IGF2BP3	Homo_sapiens	D	KH,RRM	KH_1,RRM_1	2	0.70	RNCMPT00172	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T22210_0.6	F38_0.6	TS19_0.6	M295_0.6	MS1_0.6	ENSG00000136231	IGF2BP3	Homo_sapiens	D	KH,RRM	KH_1,RRM_1	2	0.70	357_20371350	PAR-clip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T22211_0.6	F38_0.6	TS19_0.6	M293_0.6	MS1_0.6	ENSG00000159217	IGF2BP1	Homo_sapiens	D	KH,RRM	KH_1,RRM_1	2	0.70	355_20371350	PAR-clip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T22211_0.6	F38_0.6	TS19_0.6	M296_0.6	MS1_0.6	ENSG00000159217	IGF2BP1	Homo_sapiens	D	KH,RRM	KH_1,RRM_1	2	0.70	359_12507992	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T22364_0.6	F39_0.6	TS19_0.6	.	.	ENSG00000138035	PNPT1	Homo_sapiens	N	KH,S1	KH_1,S1	2	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T22489_0.6	F40_0.6	TS19_0.6	.	.	ENSG00000122870	BICC1	Homo_sapiens	N	KH,SAM	KH_1,SAM_1	2	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T22749_0.6	F41_0.6	TS19_0.6	.	.	ENSG00000107929	LARP4B	Homo_sapiens	N	La	La	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T22750_0.6	F41_0.6	TS19_0.6	.	.	ENSG00000138709	LARP1B	Homo_sapiens	N	La	La	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T22751_0.6	F41_0.6	TS19_0.6	.	.	ENSG00000155506	LARP1	Homo_sapiens	N	La	La	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T22752_0.6	F41_0.6	TS19_0.6	.	.	ENSG00000161813	LARP4	Homo_sapiens	N	La	La	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T23374_0.6	F42_0.6	TS19_0.6	.	.	ENSG00000138385	SSB	Homo_sapiens	N	La,RRM	La,RRM_1	2	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T23375_0.6	F42_0.6	TS19_0.6	.	.	ENSG00000166173	LARP6	Homo_sapiens	N	La,RRM	La,RRM_1	2	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T23376_0.6	F42_0.6	TS19_0.6	.	.	ENSG00000174720	LARP7	Homo_sapiens	N	La,RRM	La,RRM_1	2	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T24198_0.6	F44_0.6	TS19_0.6	M249_0.6	MS1_0.6	ENSG00000055917	PUM2	Homo_sapiens	D	PUF	PUF	1	0.70	1147_18776931	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T24198_0.6	F44_0.6	TS19_0.6	M280_0.6	MS1_0.6	ENSG00000055917	PUM2	Homo_sapiens	D	PUF	PUF	1	0.70	278_20371350	PAR-clip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T24198_0.6	F44_0.6	TS19_0.6	M284_0.6	MS1_0.6	ENSG00000055917	PUM2	Homo_sapiens	D	PUF	PUF	1	0.70	320_15607425	yeast three-hybrid screen	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T24199_0.6	F44_0.6	TS19_0.6	M255_0.6	MS1_0.6	ENSG00000134644	PUM1	Homo_sapiens	D	PUF	PUF	1	0.70	1182_18411299	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T24199_0.6	F44_0.6	TS19_0.6	M283_0.6	MS1_0.6	ENSG00000134644	PUM1	Homo_sapiens	D	PUF	PUF	1	0.70	309_18776931	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T24200_0.6	F44_0.6	TS19_0.6	.	.	ENSG00000196943	C14orf21	Homo_sapiens	N	PUF	PUF	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T25560_0.6	F46_0.6	TS19_0.6	M053_0.6	MS2_0.6	ENSG00000003756	RBM5	Homo_sapiens	D	RanBP ZF,RRM	zf-RanBP,RRM_1	2	0.70	RNCMPT00055	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T25560_0.6	F46_0.6	TS19_0.6	M145_0.6	MS2_0.6	ENSG00000003756	RBM5	Homo_sapiens	D	RanBP ZF,RRM	zf-RanBP,RRM_1	2	0.70	RNCMPT00154	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T25561_0.6	F46_0.6	TS19_0.6	M316_0.6	MS1_0.6	ENSG00000089280	FUS	Homo_sapiens	D	RanBP ZF,RRM	zf-RanBP,RRM_1	2	0.70	637_11098054	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T25562_0.6	F46_0.6	TS19_0.6	M316_0.6	MS1_0.6	ENSG00000172660	TAF15	Homo_sapiens	I	RanBP ZF,RRM	zf-RanBP,RRM_1	2	0.70	637_11098054	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T25563_0.6	F46_0.6	TS19_0.6	.	.	ENSG00000182872	RBM10	Homo_sapiens	N	RanBP ZF,RRM	zf-RanBP,RRM_1	2	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T25564_0.6	F46_0.6	TS19_0.6	.	.	ENSG00000182944	EWSR1	Homo_sapiens	N	RanBP ZF,RRM	zf-RanBP,RRM_1	2	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T26460_0.6	F48_0.6	TS19_0.6	.	.	ENSG00000015153	YAF2	Homo_sapiens	N	RanBP ZF	zf-RanBP	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T26461_0.6	F48_0.6	TS19_0.6	.	.	ENSG00000019995	ZRANB1	Homo_sapiens	N	RanBP ZF	zf-RanBP	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T26462_0.6	F48_0.6	TS19_0.6	.	.	ENSG00000055208	TAB2	Homo_sapiens	N	RanBP ZF	zf-RanBP	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T26463_0.6	F48_0.6	TS19_0.6	.	.	ENSG00000092098	RNF31	Homo_sapiens	N	RanBP ZF	zf-RanBP	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T26464_0.6	F48_0.6	TS19_0.6	.	.	ENSG00000103326	SOLH	Homo_sapiens	N	RanBP ZF	zf-RanBP	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T26465_0.6	F48_0.6	TS19_0.6	.	.	ENSG00000109674	NEIL3	Homo_sapiens	N	RanBP ZF	zf-RanBP	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T26466_0.6	F48_0.6	TS19_0.6	.	.	ENSG00000121988	ZRANB3	Homo_sapiens	N	RanBP ZF	zf-RanBP	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T26467_0.6	F48_0.6	TS19_0.6	.	.	ENSG00000124789	NUP153	Homo_sapiens	N	RanBP ZF	zf-RanBP	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T26468_0.6	F48_0.6	TS19_0.6	.	.	ENSG00000125826	RBCK1	Homo_sapiens	N	RanBP ZF	zf-RanBP	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T26469_0.6	F48_0.6	TS19_0.6	M259_0.6	MS1_0.6	ENSG00000132485	ZRANB2	Homo_sapiens	D	RanBP ZF	zf-RanBP	1	0.70	1285_19304800	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T26470_0.6	F48_0.6	TS19_0.6	.	.	ENSG00000133149	TEX13A	Homo_sapiens	N	RanBP ZF	zf-RanBP	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T26471_0.6	F48_0.6	TS19_0.6	.	.	ENSG00000135679	MDM2	Homo_sapiens	N	RanBP ZF	zf-RanBP	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T26472_0.6	F48_0.6	TS19_0.6	.	.	ENSG00000153201	RANBP2	Homo_sapiens	N	RanBP ZF	zf-RanBP	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T26473_0.6	F48_0.6	TS19_0.6	.	.	ENSG00000157625	TAB3	Homo_sapiens	N	RanBP ZF	zf-RanBP	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T26474_0.6	F48_0.6	TS19_0.6	.	.	ENSG00000163602	RYBP	Homo_sapiens	N	RanBP ZF	zf-RanBP	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T26475_0.6	F48_0.6	TS19_0.6	.	.	ENSG00000179526	SHARPIN	Homo_sapiens	N	RanBP ZF	zf-RanBP	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T26476_0.6	F48_0.6	TS19_0.6	.	.	ENSG00000182446	NPLOC4	Homo_sapiens	N	RanBP ZF	zf-RanBP	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37162_0.6	F49_0.6	TS19_0.6	M161_0.6	MS2_0.6	ENSG00000004534	RBM6	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00170	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37163_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000005189	AC004381.6	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37164_0.6	F49_0.6	TS19_0.6	M227_0.6	MS2_0.6	ENSG00000011304	PTBP1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00268	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37164_0.6	F49_0.6	TS19_0.6	M228_0.6	MS2_0.6	ENSG00000011304	PTBP1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00269	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37164_0.6	F49_0.6	TS19_0.6	M303_0.6	MS1_0.6	ENSG00000011304	PTBP1	Homo_sapiens	D	RRM	RRM_1	1	0.70	46_9214659	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37165_0.6	F49_0.6	TS19_0.6	M036_0.6	MS2_0.6	ENSG00000015479	MATR3	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00037	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37166_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000048740	CELF2	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37167_0.6	F49_0.6	TS19_0.6	M290_0.6	MS1_0.6	ENSG00000063046	EIF4B	Homo_sapiens	D	RRM	RRM_1	1	0.70	350_8846295	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37167_0.6	F49_0.6	TS19_0.6	M291_0.6	MS1_0.6	ENSG00000063046	EIF4B	Homo_sapiens	D	RRM	RRM_1	1	0.70	351_8846295	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37167_0.6	F49_0.6	TS19_0.6	M292_0.6	MS1_0.6	ENSG00000063046	EIF4B	Homo_sapiens	D	RRM	RRM_1	1	0.70	352_8846295	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37168_0.6	F49_0.6	TS19_0.6	M077_0.6	MS2_0.6	ENSG00000063244	U2AF2	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00079	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37169_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000065526	SPEN	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37170_0.6	F49_0.6	TS19_0.6	M031_0.6	MS2_0.6	ENSG00000066044	ELAVL1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00032	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37170_0.6	F49_0.6	TS19_0.6	M108_0.6	MS2_0.6	ENSG00000066044	ELAVL1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00112	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37170_0.6	F49_0.6	TS19_0.6	M112_0.6	MS2_0.6	ENSG00000066044	ELAVL1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00117	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37170_0.6	F49_0.6	TS19_0.6	M127_0.6	MS2_0.6	ENSG00000066044	ELAVL1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00136	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37170_0.6	F49_0.6	TS19_0.6	M232_0.6	MS2_0.6	ENSG00000066044	ELAVL1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00274	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37170_0.6	F49_0.6	TS19_0.6	M327_0.6	MS1_0.6	ENSG00000066044	ELAVL1	Homo_sapiens	D	RRM	RRM_1	1	0.70	714_14981256	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37171_0.6	F49_0.6	TS19_0.6	M146_0.6	MS2_0.6	ENSG00000070756	PABPC1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00155	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37171_0.6	F49_0.6	TS19_0.6	M275_0.6	MS1_0.6	ENSG00000070756	PABPC1	Homo_sapiens	D	RRM	RRM_1	1	0.70	24_7908267	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37171_0.6	F49_0.6	TS19_0.6	M349_0.6	MS1_0.6	ENSG00000070756	PABPC1	Homo_sapiens	D	RRM	RRM_1	1	0.70	950_7908267	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37172_0.6	F49_0.6	TS19_0.6	M013_0.6	MS2_0.6	ENSG00000071626	DAZAP1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00013	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37173_0.6	F49_0.6	TS19_0.6	M155_0.6	MS2_0.6	ENSG00000075292	ZNF638	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00164	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37174_0.6	F49_0.6	TS19_0.6	M062_0.6	MS2_0.6	ENSG00000075856	SART3	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00064	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37175_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000076053	RBM7	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37176_0.6	F49_0.6	TS19_0.6	M055_0.6	MS2_0.6	ENSG00000076067	RBMS2	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00057	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37176_0.6	F49_0.6	TS19_0.6	M143_0.6	MS2_0.6	ENSG00000076067	RBMS2	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00152	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37176_0.6	F49_0.6	TS19_0.6	M164_0.6	MS2_0.6	ENSG00000076067	RBMS2	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00173	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37177_0.6	F49_0.6	TS19_0.6	M069_0.6	MS2_0.6	ENSG00000077312	SNRPA	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00071	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37177_0.6	F49_0.6	TS19_0.6	M317_0.6	MS1_0.6	ENSG00000077312	SNRPA	Homo_sapiens	D	RRM	RRM_1	1	0.70	661_1717938	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37177_0.6	F49_0.6	TS19_0.6	M318_0.6	MS1_0.6	ENSG00000077312	SNRPA	Homo_sapiens	D	RRM	RRM_1	1	0.70	662_1717938	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37177_0.6	F49_0.6	TS19_0.6	M319_0.6	MS1_0.6	ENSG00000077312	SNRPA	Homo_sapiens	D	RRM	RRM_1	1	0.70	663_1717938	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37177_0.6	F49_0.6	TS19_0.6	M345_0.6	MS1_0.6	ENSG00000077312	SNRPA	Homo_sapiens	D	RRM	RRM_1	1	0.70	946_10094314	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37177_0.6	F49_0.6	TS19_0.6	M346_0.6	MS1_0.6	ENSG00000077312	SNRPA	Homo_sapiens	D	RRM	RRM_1	1	0.70	947_10094314	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37177_0.6	F49_0.6	TS19_0.6	M347_0.6	MS1_0.6	ENSG00000077312	SNRPA	Homo_sapiens	D	RRM	RRM_1	1	0.70	948_10094314	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37177_0.6	F49_0.6	TS19_0.6	M348_0.6	MS1_0.6	ENSG00000077312	SNRPA	Homo_sapiens	D	RRM	RRM_1	1	0.70	949_10094314	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37178_0.6	F49_0.6	TS19_0.6	M159_0.6	MS2_0.6	ENSG00000078328	A2BP1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00168	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37178_0.6	F49_0.6	TS19_0.6	M298_0.6	MS1_0.6	ENSG00000078328	A2BP1	Homo_sapiens	D	RRM	RRM_1	1	0.70	37_16537540	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37179_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000078687	TNRC6C	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37180_0.6	F49_0.6	TS19_0.6	M147_0.6	MS2_0.6	ENSG00000080802	CNOT4	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00156	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37181_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000084072	PPIE	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37182_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000087087	SRRT	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37183_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000089234	BRAP	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37184_0.6	F49_0.6	TS19_0.6	M051_0.6	MS2_0.6	ENSG00000089682	RBM41	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00053	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37185_0.6	F49_0.6	TS19_0.6	M042_0.6	MS2_0.6	ENSG00000090621	PABPC4	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00043	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37186_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000090905	TNRC6A	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37187_0.6	F49_0.6	TS19_0.6	M025_0.6	MS2_0.6	ENSG00000092199	HNRNPC	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00025	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37188_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000092345	DAZL	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37189_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000096746	HNRNPH3	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37190_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000099381	SETD1A	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37191_0.6	F49_0.6	TS19_0.6	M048_0.6	MS2_0.6	ENSG00000099622	CIRBP	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00050	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37192_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000099783	HNRNPM	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37193_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000099899	TRMT2A	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37194_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000100227	POLDIP3	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37195_0.6	F49_0.6	TS19_0.6	M017_0.6	MS2_0.6	ENSG00000100320	RBFOX2	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00017	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37195_0.6	F49_0.6	TS19_0.6	M118_0.6	MS2_0.6	ENSG00000100320	RBFOX2	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00123	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37195_0.6	F49_0.6	TS19_0.6	M159_0.6	MS2_0.6	ENSG00000100320	RBFOX2	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00168	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37195_0.6	F49_0.6	TS19_0.6	M297_0.6	MS1_0.6	ENSG00000100320	RBFOX2	Homo_sapiens	I	RRM	RRM_1	1	0.70	36_12574126	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37195_0.6	F49_0.6	TS19_0.6	M298_0.6	MS1_0.6	ENSG00000100320	RBFOX2	Homo_sapiens	I	RRM	RRM_1	1	0.70	37_16537540	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37196_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000100354	TNRC6B	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37197_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000100461	RBM23	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37198_0.6	F49_0.6	TS19_0.6	M355_0.6	MS1_0.6	ENSG00000100650	SRSF5	Homo_sapiens	D	RRM	RRM_1	1	0.70	983_9037021	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37198_0.6	F49_0.6	TS19_0.6	M356_0.6	MS1_0.6	ENSG00000100650	SRSF5	Homo_sapiens	D	RRM	RRM_1	1	0.70	984_9037021	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37198_0.6	F49_0.6	TS19_0.6	M357_0.6	MS1_0.6	ENSG00000100650	SRSF5	Homo_sapiens	D	RRM	RRM_1	1	0.70	985_9037021	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37199_0.6	F49_0.6	TS19_0.6	M148_0.6	MS2_0.6	ENSG00000100836	PABPN1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00157	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37200_0.6	F49_0.6	TS19_0.6	M042_0.6	MS2_0.6	ENSG00000101104	PABPC1L	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00043	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37200_0.6	F49_0.6	TS19_0.6	M144_0.6	MS2_0.6	ENSG00000101104	PABPC1L	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00153	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37200_0.6	F49_0.6	TS19_0.6	M146_0.6	MS2_0.6	ENSG00000101104	PABPC1L	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00155	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37200_0.6	F49_0.6	TS19_0.6	M275_0.6	MS1_0.6	ENSG00000101104	PABPC1L	Homo_sapiens	I	RRM	RRM_1	1	0.70	24_7908267	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37200_0.6	F49_0.6	TS19_0.6	M349_0.6	MS1_0.6	ENSG00000101104	PABPC1L	Homo_sapiens	I	RRM	RRM_1	1	0.70	950_7908267	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37201_0.6	F49_0.6	TS19_0.6	M004_0.6	MS2_0.6	ENSG00000101489	BRUNOL4	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00004	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37202_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000101811	CSTF2	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37203_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000102241	HTATSF1	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37204_0.6	F49_0.6	TS19_0.6	M048_0.6	MS2_0.6	ENSG00000102317	RBM3	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00050	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37205_0.6	F49_0.6	TS19_0.6	M141_0.6	MS2_0.6	ENSG00000103067	ESRP2	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00150	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37206_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000103248	MTHFSD	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37207_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000104129	DNAJC17	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37208_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000104177	MYEF2	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37209_0.6	F49_0.6	TS19_0.6	M141_0.6	MS2_0.6	ENSG00000104413	ESRP1	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00150	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37210_0.6	F49_0.6	TS19_0.6	M027_0.6	MS2_0.6	ENSG00000104824	HNRNPL	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00027	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37210_0.6	F49_0.6	TS19_0.6	M089_0.6	MS2_0.6	ENSG00000104824	HNRNPL	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00091	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37211_0.6	F49_0.6	TS19_0.6	M068_0.6	MS2_0.6	ENSG00000104852	SNRNP70	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00070	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37212_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000106263	EIF3B	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37213_0.6	F49_0.6	TS19_0.6	M047_0.6	MS2_0.6	ENSG00000106344	RBM28	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00049	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37214_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000106682	EIF4H	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37215_0.6	F49_0.6	TS19_0.6	M328_0.6	MS1_0.6	ENSG00000107105	ELAVL2	Homo_sapiens	D	RRM	RRM_1	1	0.70	782_8497264	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37215_0.6	F49_0.6	TS19_0.6	M329_0.6	MS1_0.6	ENSG00000107105	ELAVL2	Homo_sapiens	D	RRM	RRM_1	1	0.70	783_7972035	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37215_0.6	F49_0.6	TS19_0.6	M330_0.6	MS1_0.6	ENSG00000107105	ELAVL2	Homo_sapiens	D	RRM	RRM_1	1	0.70	784_7972035	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37216_0.6	F49_0.6	TS19_0.6	M012_0.6	MS2_0.6	ENSG00000107864	CPEB3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00012	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37216_0.6	F49_0.6	TS19_0.6	M120_0.6	MS2_0.6	ENSG00000107864	CPEB3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00126	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37216_0.6	F49_0.6	TS19_0.6	M149_0.6	MS2_0.6	ENSG00000107864	CPEB3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00158	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37217_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000109819	PPARGC1A	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37218_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000111605	CPSF6	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37219_0.6	F49_0.6	TS19_0.6	M065_0.6	MS2_0.6	ENSG00000111786	SRSF9	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00067	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37219_0.6	F49_0.6	TS19_0.6	M072_0.6	MS2_0.6	ENSG00000111786	SRSF9	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00074	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37219_0.6	F49_0.6	TS19_0.6	M333_0.6	MS1_0.6	ENSG00000111786	SRSF9	Homo_sapiens	D	RRM	RRM_1	1	0.70	797_17548433	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37220_0.6	F49_0.6	TS19_0.6	M056_0.6	MS2_0.6	ENSG00000112081	SRSF3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00058	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37220_0.6	F49_0.6	TS19_0.6	M121_0.6	MS2_0.6	ENSG00000112081	SRSF3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00127	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37220_0.6	F49_0.6	TS19_0.6	M335_0.6	MS1_0.6	ENSG00000112081	SRSF3	Homo_sapiens	I	RRM	RRM_1	1	0.70	804_7664738	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37220_0.6	F49_0.6	TS19_0.6	M336_0.6	MS1_0.6	ENSG00000112081	SRSF3	Homo_sapiens	I	RRM	RRM_1	1	0.70	804_7664738.1	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37221_0.6	F49_0.6	TS19_0.6	M175_0.6	MS2_0.6	ENSG00000112183	RBM24	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00184	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37222_0.6	F49_0.6	TS19_0.6	M149_0.6	MS2_0.6	ENSG00000113742	CPEB4	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00158	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37223_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000114503	NCBP2	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37224_0.6	F49_0.6	TS19_0.6	M245_0.6	MS1_0.6	ENSG00000115053	NCL	Homo_sapiens	D	RRM	RRM_1	1	0.70	1004_8676391	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37225_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000115128	AC008073.5	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37226_0.6	F49_0.6	TS19_0.6	M075_0.6	MS2_0.6	ENSG00000116001	TIA1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00077	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37226_0.6	F49_0.6	TS19_0.6	M156_0.6	MS2_0.6	ENSG00000116001	TIA1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00165	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37227_0.6	F49_0.6	TS19_0.6	M126_0.6	MS2_0.6	ENSG00000116350	SRSF4	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00134	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37227_0.6	F49_0.6	TS19_0.6	M334_0.6	MS1_0.6	ENSG00000116350	SRSF4	Homo_sapiens	I	RRM	RRM_1	1	0.70	802_9111335	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37228_0.6	F49_0.6	TS19_0.6	M168_0.6	MS2_0.6	ENSG00000116560	SFPQ	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00177	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37228_0.6	F49_0.6	TS19_0.6	M308_0.6	MS1_0.6	ENSG00000116560	SFPQ	Homo_sapiens	D	RRM	RRM_1	1	0.70	489_12403470	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37229_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000116754	SRSF11	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37230_0.6	F49_0.6	TS19_0.6	M227_0.6	MS2_0.6	ENSG00000117569	PTBP2	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00268	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37230_0.6	F49_0.6	TS19_0.6	M228_0.6	MS2_0.6	ENSG00000117569	PTBP2	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00269	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37230_0.6	F49_0.6	TS19_0.6	M303_0.6	MS1_0.6	ENSG00000117569	PTBP2	Homo_sapiens	I	RRM	RRM_1	1	0.70	46_9214659	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37231_0.6	F49_0.6	TS19_0.6	M227_0.6	MS2_0.6	ENSG00000119314	ROD1	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00268	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37231_0.6	F49_0.6	TS19_0.6	M228_0.6	MS2_0.6	ENSG00000119314	ROD1	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00269	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37231_0.6	F49_0.6	TS19_0.6	M303_0.6	MS1_0.6	ENSG00000119314	ROD1	Homo_sapiens	I	RRM	RRM_1	1	0.70	46_9214659	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37232_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000119446	RBM18	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37233_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000119705	C14orf156	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37234_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000119707	RBM25	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37235_0.6	F49_0.6	TS19_0.6	M140_0.6	MS2_0.6	ENSG00000120658	ENOX1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00149	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37236_0.6	F49_0.6	TS19_0.6	M074_0.6	MS2_0.6	ENSG00000120948	TARDBP	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00076	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37237_0.6	F49_0.6	TS19_0.6	M168_0.6	MS2_0.6	ENSG00000121390	PSPC1	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00177	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37237_0.6	F49_0.6	TS19_0.6	M308_0.6	MS1_0.6	ENSG00000121390	PSPC1	Homo_sapiens	I	RRM	RRM_1	1	0.70	489_12403470	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37238_0.6	F49_0.6	TS19_0.6	M024_0.6	MS2_0.6	ENSG00000122566	HNRNPA2B1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00024	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37239_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000122965	RBM19	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37240_0.6	F49_0.6	TS19_0.6	M126_0.6	MS2_0.6	ENSG00000124193	SRSF6	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00134	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37240_0.6	F49_0.6	TS19_0.6	M334_0.6	MS1_0.6	ENSG00000124193	SRSF6	Homo_sapiens	I	RRM	RRM_1	1	0.70	802_9111335	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37241_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000125351	UPF3B	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37242_0.6	F49_0.6	TS19_0.6	M069_0.6	MS2_0.6	ENSG00000125870	SNRPB2	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00071	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37242_0.6	F49_0.6	TS19_0.6	M136_0.6	MS2_0.6	ENSG00000125870	SNRPB2	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00145	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37242_0.6	F49_0.6	TS19_0.6	M317_0.6	MS1_0.6	ENSG00000125870	SNRPB2	Homo_sapiens	I	RRM	RRM_1	1	0.70	661_1717938	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37242_0.6	F49_0.6	TS19_0.6	M318_0.6	MS1_0.6	ENSG00000125870	SNRPB2	Homo_sapiens	I	RRM	RRM_1	1	0.70	662_1717938	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37242_0.6	F49_0.6	TS19_0.6	M319_0.6	MS1_0.6	ENSG00000125870	SNRPB2	Homo_sapiens	I	RRM	RRM_1	1	0.70	663_1717938	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37242_0.6	F49_0.6	TS19_0.6	M345_0.6	MS1_0.6	ENSG00000125870	SNRPB2	Homo_sapiens	I	RRM	RRM_1	1	0.70	946_10094314	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37242_0.6	F49_0.6	TS19_0.6	M346_0.6	MS1_0.6	ENSG00000125870	SNRPB2	Homo_sapiens	I	RRM	RRM_1	1	0.70	947_10094314	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37242_0.6	F49_0.6	TS19_0.6	M347_0.6	MS1_0.6	ENSG00000125870	SNRPB2	Homo_sapiens	I	RRM	RRM_1	1	0.70	948_10094314	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37242_0.6	F49_0.6	TS19_0.6	M348_0.6	MS1_0.6	ENSG00000125870	SNRPB2	Homo_sapiens	I	RRM	RRM_1	1	0.70	949_10094314	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37243_0.6	F49_0.6	TS19_0.6	M236_0.6	MS2_0.6	ENSG00000125944	HNRNPR	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00281	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37243_0.6	F49_0.6	TS19_0.6	M242_0.6	MS2_0.6	ENSG00000125944	HNRNPR	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00288	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37243_0.6	F49_0.6	TS19_0.6	M243_0.6	MS2_0.6	ENSG00000125944	HNRNPR	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00289	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37244_0.6	F49_0.6	TS19_0.6	M150_0.6	MS2_0.6	ENSG00000125970	RALY	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00159	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37245_0.6	F49_0.6	TS19_0.6	M142_0.6	MS2_0.6	ENSG00000126254	RBM42	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00151	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37246_0.6	F49_0.6	TS19_0.6	M151_0.6	MS2_0.6	ENSG00000126945	HNRNPH2	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00160	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37247_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000130254	SAFB2	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37248_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000130811	EIF3G	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37249_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000131013	PPIL4	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37250_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000131051	RBM39	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37251_0.6	F49_0.6	TS19_0.6	M054_0.6	MS2_0.6	ENSG00000131795	RBM8A	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00056	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37252_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000132463	GRSF1	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37253_0.6	F49_0.6	TS19_0.6	M049_0.6	MS2_0.6	ENSG00000132819	RBM38	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00051	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37253_0.6	F49_0.6	TS19_0.6	M170_0.6	MS2_0.6	ENSG00000132819	RBM38	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00179	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37253_0.6	F49_0.6	TS19_0.6	M175_0.6	MS2_0.6	ENSG00000132819	RBM38	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00184	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37253_0.6	F49_0.6	TS19_0.6	M238_0.6	MS2_0.6	ENSG00000132819	RBM38	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00283	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37253_0.6	F49_0.6	TS19_0.6	M240_0.6	MS2_0.6	ENSG00000132819	RBM38	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00285	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37254_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000134453	RBM17	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37255_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000134597	RBMX2	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37256_0.6	F49_0.6	TS19_0.6	M040_0.6	MS2_0.6	ENSG00000135097	MSI1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00041	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37256_0.6	F49_0.6	TS19_0.6	M167_0.6	MS2_0.6	ENSG00000135097	MSI1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00176	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37257_0.6	F49_0.6	TS19_0.6	M236_0.6	MS2_0.6	ENSG00000135316	SYNCRIP	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00281	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37257_0.6	F49_0.6	TS19_0.6	M242_0.6	MS2_0.6	ENSG00000135316	SYNCRIP	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00288	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37257_0.6	F49_0.6	TS19_0.6	M243_0.6	MS2_0.6	ENSG00000135316	SYNCRIP	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00289	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37258_0.6	F49_0.6	TS19_0.6	M022_0.6	MS2_0.6	ENSG00000135486	HNRNPA1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00022	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37258_0.6	F49_0.6	TS19_0.6	M271_0.6	MS1_0.6	ENSG00000135486	HNRNPA1	Homo_sapiens	D	RRM	RRM_1	1	0.70	23_7510636	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37258_0.6	F49_0.6	TS19_0.6	M312_0.6	MS1_0.6	ENSG00000135486	HNRNPA1	Homo_sapiens	D	RRM	RRM_1	1	0.70	560_17925491	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37259_0.6	F49_0.6	TS19_0.6	M102_0.6	MS2_0.6	ENSG00000136450	SRSF1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00106	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37259_0.6	F49_0.6	TS19_0.6	M103_0.6	MS2_0.6	ENSG00000136450	SRSF1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00107	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37259_0.6	F49_0.6	TS19_0.6	M104_0.6	MS2_0.6	ENSG00000136450	SRSF1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00108	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37259_0.6	F49_0.6	TS19_0.6	M105_0.6	MS2_0.6	ENSG00000136450	SRSF1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00109	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37259_0.6	F49_0.6	TS19_0.6	M106_0.6	MS2_0.6	ENSG00000136450	SRSF1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00110	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37259_0.6	F49_0.6	TS19_0.6	M154_0.6	MS2_0.6	ENSG00000136450	SRSF1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00163	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37259_0.6	F49_0.6	TS19_0.6	M270_0.6	MS1_0.6	ENSG00000136450	SRSF1	Homo_sapiens	D	RRM	RRM_1	1	0.70	229_19116412	CLIP-seq	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37259_0.6	F49_0.6	TS19_0.6	M272_0.6	MS1_0.6	ENSG00000136450	SRSF1	Homo_sapiens	D	RRM	RRM_1	1	0.70	242_7543047	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37259_0.6	F49_0.6	TS19_0.6	M273_0.6	MS1_0.6	ENSG00000136450	SRSF1	Homo_sapiens	D	RRM	RRM_1	1	0.70	243_7543047	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37259_0.6	F49_0.6	TS19_0.6	M351_0.6	MS1_0.6	ENSG00000136450	SRSF1	Homo_sapiens	D	RRM	RRM_1	1	0.70	952_7543047	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37260_0.6	F49_0.6	TS19_0.6	M311_0.6	MS1_0.6	ENSG00000136527	TRA2B	Homo_sapiens	D	RRM	RRM_1	1	0.70	547_9546399	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37261_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000137216	TMEM63B	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37262_0.6	F49_0.6	TS19_0.6	M012_0.6	MS2_0.6	ENSG00000137449	CPEB2	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00012	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37263_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000137760	ALKBH8	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37264_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000137776	SLTM	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37265_0.6	F49_0.6	TS19_0.6	M301_0.6	MS1_0.6	ENSG00000138668	HNRNPD	Homo_sapiens	I	RRM	RRM_1	1	0.70	39_12419250	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37266_0.6	F49_0.6	TS19_0.6	M021_0.6	MS2_0.6	ENSG00000138757	G3BP2	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00021	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37267_0.6	F49_0.6	TS19_0.6	M023_0.6	MS2_0.6	ENSG00000139675	HNRNPA1L2	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00023	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37268_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000139718	SETD1B	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37269_0.6	F49_0.6	TS19_0.6	M178_0.6	MS2_0.6	ENSG00000140488	BRUNOL6	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00187	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37270_0.6	F49_0.6	TS19_0.6	M195_0.6	MS2_0.6	ENSG00000143368	SF3B4	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00224	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37270_0.6	F49_0.6	TS19_0.6	M201_0.6	MS2_0.6	ENSG00000143368	SF3B4	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00232	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37270_0.6	F49_0.6	TS19_0.6	M205_0.6	MS2_0.6	ENSG00000143368	SF3B4	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00237	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37270_0.6	F49_0.6	TS19_0.6	M261_0.6	MS1_0.6	ENSG00000143368	SF3B4	Homo_sapiens	I	RRM	RRM_1	1	0.70	145_9163526	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37271_0.6	F49_0.6	TS19_0.6	M169_0.6	MS2_0.6	ENSG00000143889	hnRNPLL	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00178	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37272_0.6	F49_0.6	TS19_0.6	M055_0.6	MS2_0.6	ENSG00000144642	RBMS3	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00057	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37272_0.6	F49_0.6	TS19_0.6	M164_0.6	MS2_0.6	ENSG00000144642	RBMS3	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00173	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37273_0.6	F49_0.6	TS19_0.6	M302_0.6	MS1_0.6	ENSG00000145907	G3BP1	Homo_sapiens	D	RRM	RRM_1	1	0.70	432_11604510	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37274_0.6	F49_0.6	TS19_0.6	M307_0.6	MS1_0.6	ENSG00000147140	NONO	Homo_sapiens	D	RRM	RRM_1	1	0.70	488_9001221	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37274_0.6	F49_0.6	TS19_0.6	M309_0.6	MS1_0.6	ENSG00000147140	NONO	Homo_sapiens	D	RRM	RRM_1	1	0.70	490_12403470	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37275_0.6	F49_0.6	TS19_0.6	M344_0.6	MS1_0.6	ENSG00000147274	RBMX	Homo_sapiens	D	RRM	RRM_1	1	0.70	922_19282290	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37276_0.6	F49_0.6	TS19_0.6	M001_0.6	MS2_0.6	ENSG00000148584	A1CF	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00001	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37277_0.6	F49_0.6	TS19_0.6	M044_0.6	MS2_0.6	ENSG00000148840	PPRC1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00045	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37278_0.6	F49_0.6	TS19_0.6	M073_0.6	MS2_0.6	ENSG00000149016	STAR-PAP	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00075	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37279_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000149187	CELF1	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37280_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000149532	CPSF7	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37281_0.6	F49_0.6	TS19_0.6	M144_0.6	MS2_0.6	ENSG00000151846	PABPC3	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00153	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37282_0.6	F49_0.6	TS19_0.6	M310_0.6	MS1_0.6	ENSG00000151923	TIAL1	Homo_sapiens	D	RRM	RRM_1	1	0.70	500_17682065	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37283_0.6	F49_0.6	TS19_0.6	M052_0.6	MS2_0.6	ENSG00000151962	RBM46	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00054	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37284_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000152332	UHMK1	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37285_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000152430	BOLL	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37286_0.6	F49_0.6	TS19_0.6	M210_0.6	MS2_0.6	ENSG00000152795	HNRPDL	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00245	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37286_0.6	F49_0.6	TS19_0.6	M301_0.6	MS1_0.6	ENSG00000152795	HNRPDL	Homo_sapiens	I	RRM	RRM_1	1	0.70	39_12419250	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37287_0.6	F49_0.6	TS19_0.6	M143_0.6	MS2_0.6	ENSG00000153250	RBMS1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00152	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37288_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000153914	SREK1	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37289_0.6	F49_0.6	TS19_0.6	M040_0.6	MS2_0.6	ENSG00000153944	MSI2	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00041	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37289_0.6	F49_0.6	TS19_0.6	M167_0.6	MS2_0.6	ENSG00000153944	MSI2	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00176	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37290_0.6	F49_0.6	TS19_0.6	M019_0.6	MS2_0.6	ENSG00000154548	SRSF12	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00019	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37290_0.6	F49_0.6	TS19_0.6	M086_0.6	MS2_0.6	ENSG00000154548	SRSF12	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00088	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37290_0.6	F49_0.6	TS19_0.6	M087_0.6	MS2_0.6	ENSG00000154548	SRSF12	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00089	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37290_0.6	F49_0.6	TS19_0.6	M088_0.6	MS2_0.6	ENSG00000154548	SRSF12	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00090	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37291_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000155438	MKI67IP	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37292_0.6	F49_0.6	TS19_0.6	M209_0.6	MS2_0.6	ENSG00000155636	RBM45	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00241	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37293_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000155846	PPARGC1B	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37294_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000156304	SCAF4	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37295_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000157110	RBPMS	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37296_0.6	F49_0.6	TS19_0.6	M004_0.6	MS2_0.6	ENSG00000159409	CELF3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00004	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37296_0.6	F49_0.6	TS19_0.6	M079_0.6	MS2_0.6	ENSG00000159409	CELF3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00081	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37296_0.6	F49_0.6	TS19_0.6	M157_0.6	MS2_0.6	ENSG00000159409	CELF3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00166	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37296_0.6	F49_0.6	TS19_0.6	M178_0.6	MS2_0.6	ENSG00000159409	CELF3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00187	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37296_0.6	F49_0.6	TS19_0.6	M229_0.6	MS2_0.6	ENSG00000159409	CELF3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00270	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37297_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000160633	SAFB	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37298_0.6	F49_0.6	TS19_0.6	M157_0.6	MS2_0.6	ENSG00000161082	BRUNOL5	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00166	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37299_0.6	F49_0.6	TS19_0.6	M070_0.6	MS2_0.6	ENSG00000161547	SRSF2	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00072	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37299_0.6	F49_0.6	TS19_0.6	M274_0.6	MS1_0.6	ENSG00000161547	SRSF2	Homo_sapiens	D	RRM	RRM_1	1	0.70	244_7543047	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37299_0.6	F49_0.6	TS19_0.6	M332_0.6	MS1_0.6	ENSG00000161547	SRSF2	Homo_sapiens	D	RRM	RRM_1	1	0.70	791_10094314	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37299_0.6	F49_0.6	TS19_0.6	M352_0.6	MS1_0.6	ENSG00000161547	SRSF2	Homo_sapiens	D	RRM	RRM_1	1	0.70	953_7543047	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37300_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000161847	RAVER1	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37301_0.6	F49_0.6	TS19_0.6	M313_0.6	MS1_0.6	ENSG00000162374	ELAVL4	Homo_sapiens	D	RRM	RRM_1	1	0.70	619_19846595	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37301_0.6	F49_0.6	TS19_0.6	M314_0.6	MS1_0.6	ENSG00000162374	ELAVL4	Homo_sapiens	D	RRM	RRM_1	1	0.70	619_19846595.1	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37301_0.6	F49_0.6	TS19_0.6	M315_0.6	MS1_0.6	ENSG00000162374	ELAVL4	Homo_sapiens	D	RRM	RRM_1	1	0.70	619_19846595.2	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37302_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000162437	RAVER2	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37303_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000162775	RBM15	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37304_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000163239	TDRD10	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37305_0.6	F49_0.6	TS19_0.6	M052_0.6	MS2_0.6	ENSG00000163694	RBM47	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00054	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37305_0.6	F49_0.6	TS19_0.6	M234_0.6	MS2_0.6	ENSG00000163694	RBM47	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00279	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37305_0.6	F49_0.6	TS19_0.6	M235_0.6	MS2_0.6	ENSG00000163694	RBM47	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00280	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37306_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000163714	U2SURP	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37307_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000164548	TRA2A	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37308_0.6	F49_0.6	TS19_0.6	M140_0.6	MS2_0.6	ENSG00000165675	ENOX2	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00149	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37309_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000166783	KIAA0430	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37310_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000166831	RBPMS2	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37311_0.6	F49_0.6	TS19_0.6	M017_0.6	MS2_0.6	ENSG00000167281	RBFOX3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00017	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37311_0.6	F49_0.6	TS19_0.6	M118_0.6	MS2_0.6	ENSG00000167281	RBFOX3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00123	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37311_0.6	F49_0.6	TS19_0.6	M159_0.6	MS2_0.6	ENSG00000167281	RBFOX3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00168	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37311_0.6	F49_0.6	TS19_0.6	M297_0.6	MS1_0.6	ENSG00000167281	RBFOX3	Homo_sapiens	I	RRM	RRM_1	1	0.70	36_12574126	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37311_0.6	F49_0.6	TS19_0.6	M298_0.6	MS1_0.6	ENSG00000167281	RBFOX3	Homo_sapiens	I	RRM	RRM_1	1	0.70	37_16537540	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37312_0.6	F49_0.6	TS19_0.6	M151_0.6	MS2_0.6	ENSG00000169045	HNRNPH1	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00160	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37313_0.6	F49_0.6	TS19_0.6	M246_0.6	MS1_0.6	ENSG00000169800	RBMY1F	Homo_sapiens	I	RRM	RRM_1	1	0.70	1052_17318228	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37313_0.6	F49_0.6	TS19_0.6	M247_0.6	MS1_0.6	ENSG00000169800	RBMY1F	Homo_sapiens	I	RRM	RRM_1	1	0.70	1053_17318228	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37313_0.6	F49_0.6	TS19_0.6	M344_0.6	MS1_0.6	ENSG00000169800	RBMY1F	Homo_sapiens	I	RRM	RRM_1	1	0.70	922_19282290	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37314_0.6	F49_0.6	TS19_0.6	M151_0.6	MS2_0.6	ENSG00000169813	HNRNPF	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00160	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37315_0.6	F49_0.6	TS19_0.6	M022_0.6	MS2_0.6	ENSG00000170144	HNRNPA3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00022	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37315_0.6	F49_0.6	TS19_0.6	M023_0.6	MS2_0.6	ENSG00000170144	HNRNPA3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00023	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37315_0.6	F49_0.6	TS19_0.6	M024_0.6	MS2_0.6	ENSG00000170144	HNRNPA3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00024	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37315_0.6	F49_0.6	TS19_0.6	M271_0.6	MS1_0.6	ENSG00000170144	HNRNPA3	Homo_sapiens	I	RRM	RRM_1	1	0.70	23_7510636	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37315_0.6	F49_0.6	TS19_0.6	M312_0.6	MS1_0.6	ENSG00000170144	HNRNPA3	Homo_sapiens	I	RRM	RRM_1	1	0.70	560_17925491	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37316_0.6	F49_0.6	TS19_0.6	M246_0.6	MS1_0.6	ENSG00000170748	RBMXL2	Homo_sapiens	I	RRM	RRM_1	1	0.70	1052_17318228	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37316_0.6	F49_0.6	TS19_0.6	M247_0.6	MS1_0.6	ENSG00000170748	RBMXL2	Homo_sapiens	I	RRM	RRM_1	1	0.70	1053_17318228	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37316_0.6	F49_0.6	TS19_0.6	M344_0.6	MS1_0.6	ENSG00000170748	RBMXL2	Homo_sapiens	I	RRM	RRM_1	1	0.70	922_19282290	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37317_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000170935	NCBP2L	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37318_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000172348	RCAN2	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37319_0.6	F49_0.6	TS19_0.6	M162_0.6	MS2_0.6	ENSG00000174740	PABPC5	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00171	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37320_0.6	F49_0.6	TS19_0.6	M246_0.6	MS1_0.6	ENSG00000175718	RBMXL3	Homo_sapiens	I	RRM	RRM_1	1	0.70	1052_17318228	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37320_0.6	F49_0.6	TS19_0.6	M247_0.6	MS1_0.6	ENSG00000175718	RBMXL3	Homo_sapiens	I	RRM	RRM_1	1	0.70	1053_17318228	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37320_0.6	F49_0.6	TS19_0.6	M344_0.6	MS1_0.6	ENSG00000175718	RBMXL3	Homo_sapiens	I	RRM	RRM_1	1	0.70	922_19282290	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37321_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000177483	RBM44	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37322_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000177613	CSTF2T	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37323_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000177733	HNRNPA0	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37324_0.6	F49_0.6	TS19_0.6	M158_0.6	MS2_0.6	ENSG00000179172	HNRNPCL1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00167	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37325_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000179837	RBM15B	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37326_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000179950	PUF60	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37327_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000180098	TRNAU1AP	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37328_0.6	F49_0.6	TS19_0.6	M070_0.6	MS2_0.6	ENSG00000180771	ENSG00000180771	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00072	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37328_0.6	F49_0.6	TS19_0.6	M274_0.6	MS1_0.6	ENSG00000180771	ENSG00000180771	Homo_sapiens	I	RRM	RRM_1	1	0.70	244_7543047	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37328_0.6	F49_0.6	TS19_0.6	M332_0.6	MS1_0.6	ENSG00000180771	ENSG00000180771	Homo_sapiens	I	RRM	RRM_1	1	0.70	791_10094314	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37328_0.6	F49_0.6	TS19_0.6	M352_0.6	MS1_0.6	ENSG00000180771	ENSG00000180771	Homo_sapiens	I	RRM	RRM_1	1	0.70	953_7543047	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37329_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000183403	ENSG00000183403	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37330_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000183684	THOC4	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37331_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000183808	RBM12B	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37332_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000184209	SNRNP35	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37333_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000184388	PABPC1L2B	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37334_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000184863	RBM33	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37335_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000185272	RBM11	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37336_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000185946	RNPC3	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37337_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000186288	PABPC1L2A	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37338_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000187191	DAZ3	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37339_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000187456	RDM1	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37340_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000188120	DAZ1	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37341_0.6	F49_0.6	TS19_0.6	M019_0.6	MS2_0.6	ENSG00000188529	Fusip1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00019	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37341_0.6	F49_0.6	TS19_0.6	M086_0.6	MS2_0.6	ENSG00000188529	Fusip1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00088	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37341_0.6	F49_0.6	TS19_0.6	M087_0.6	MS2_0.6	ENSG00000188529	Fusip1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00089	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37341_0.6	F49_0.6	TS19_0.6	M088_0.6	MS2_0.6	ENSG00000188529	Fusip1	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00090	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37342_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000188739	RBM34	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37343_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000189306	RRP7A	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37344_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000196187	TMEM63A	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37345_0.6	F49_0.6	TS19_0.6	M031_0.6	MS2_0.6	ENSG00000196361	ELAVL3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00032	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37345_0.6	F49_0.6	TS19_0.6	M108_0.6	MS2_0.6	ENSG00000196361	ELAVL3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00112	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37345_0.6	F49_0.6	TS19_0.6	M112_0.6	MS2_0.6	ENSG00000196361	ELAVL3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00117	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37345_0.6	F49_0.6	TS19_0.6	M124_0.6	MS2_0.6	ENSG00000196361	ELAVL3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00132	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37345_0.6	F49_0.6	TS19_0.6	M127_0.6	MS2_0.6	ENSG00000196361	ELAVL3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00136	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37345_0.6	F49_0.6	TS19_0.6	M232_0.6	MS2_0.6	ENSG00000196361	ELAVL3	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00274	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37345_0.6	F49_0.6	TS19_0.6	M313_0.6	MS1_0.6	ENSG00000196361	ELAVL3	Homo_sapiens	I	RRM	RRM_1	1	0.70	619_19846595	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37345_0.6	F49_0.6	TS19_0.6	M314_0.6	MS1_0.6	ENSG00000196361	ELAVL3	Homo_sapiens	I	RRM	RRM_1	1	0.70	619_19846595.1	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37345_0.6	F49_0.6	TS19_0.6	M315_0.6	MS1_0.6	ENSG00000196361	ELAVL3	Homo_sapiens	I	RRM	RRM_1	1	0.70	619_19846595.2	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37345_0.6	F49_0.6	TS19_0.6	M327_0.6	MS1_0.6	ENSG00000196361	ELAVL3	Homo_sapiens	I	RRM	RRM_1	1	0.70	714_14981256	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37345_0.6	F49_0.6	TS19_0.6	M328_0.6	MS1_0.6	ENSG00000196361	ELAVL3	Homo_sapiens	I	RRM	RRM_1	1	0.70	782_8497264	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37345_0.6	F49_0.6	TS19_0.6	M329_0.6	MS1_0.6	ENSG00000196361	ELAVL3	Homo_sapiens	I	RRM	RRM_1	1	0.70	783_7972035	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37345_0.6	F49_0.6	TS19_0.6	M330_0.6	MS1_0.6	ENSG00000196361	ELAVL3	Homo_sapiens	I	RRM	RRM_1	1	0.70	784_7972035	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37346_0.6	F49_0.6	TS19_0.6	M301_0.6	MS1_0.6	ENSG00000197451	HNRNPAB	Homo_sapiens	D	RRM	RRM_1	1	0.70	39_12419250	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37347_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000197976	AKAP17A	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37348_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000198000	NOL8	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37349_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000204356	RDBP	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37350_0.6	F49_0.6	TS19_0.6	M148_0.6	MS2_0.6	ENSG00000205022	PABPN1L	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00157	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37351_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000205916	DAZ4	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37352_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000205937	RNPS1	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37353_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000205944	DAZ2	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37354_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000206268	CR388219.1	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37355_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000206357	AL844853.7	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37356_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000213079	SCAF8	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37357_0.6	F49_0.6	TS19_0.6	M055_0.6	MS2_0.6	ENSG00000213250	ENSG00000213250	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00057	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37357_0.6	F49_0.6	TS19_0.6	M143_0.6	MS2_0.6	ENSG00000213250	ENSG00000213250	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00152	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37357_0.6	F49_0.6	TS19_0.6	M164_0.6	MS2_0.6	ENSG00000213250	ENSG00000213250	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00173	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37358_0.6	F49_0.6	TS19_0.6	M246_0.6	MS1_0.6	ENSG00000213516	RBMXL1	Homo_sapiens	I	RRM	RRM_1	1	0.70	1052_17318228	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37358_0.6	F49_0.6	TS19_0.6	M247_0.6	MS1_0.6	ENSG00000213516	RBMXL1	Homo_sapiens	I	RRM	RRM_1	1	0.70	1053_17318228	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37358_0.6	F49_0.6	TS19_0.6	M344_0.6	MS1_0.6	ENSG00000213516	RBMXL1	Homo_sapiens	I	RRM	RRM_1	1	0.70	922_19282290	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37359_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000214575	CPEB1	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37360_0.6	F49_0.6	TS19_0.6	M027_0.6	MS2_0.6	ENSG00000215042	ENSG00000215042	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00027	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37360_0.6	F49_0.6	TS19_0.6	M089_0.6	MS2_0.6	ENSG00000215042	ENSG00000215042	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00091	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37361_0.6	F49_0.6	TS19_0.6	M022_0.6	MS2_0.6	ENSG00000215492	ENSG00000215492	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00022	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37361_0.6	F49_0.6	TS19_0.6	M023_0.6	MS2_0.6	ENSG00000215492	ENSG00000215492	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00023	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37361_0.6	F49_0.6	TS19_0.6	M024_0.6	MS2_0.6	ENSG00000215492	ENSG00000215492	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00024	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37361_0.6	F49_0.6	TS19_0.6	M271_0.6	MS1_0.6	ENSG00000215492	ENSG00000215492	Homo_sapiens	I	RRM	RRM_1	1	0.70	23_7510636	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37361_0.6	F49_0.6	TS19_0.6	M312_0.6	MS1_0.6	ENSG00000215492	ENSG00000215492	Homo_sapiens	I	RRM	RRM_1	1	0.70	560_17925491	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37362_0.6	F49_0.6	TS19_0.6	M019_0.6	MS2_0.6	ENSG00000215699	BX511012.1	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00019	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37362_0.6	F49_0.6	TS19_0.6	M086_0.6	MS2_0.6	ENSG00000215699	BX511012.1	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00088	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37362_0.6	F49_0.6	TS19_0.6	M087_0.6	MS2_0.6	ENSG00000215699	BX511012.1	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00089	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37362_0.6	F49_0.6	TS19_0.6	M088_0.6	MS2_0.6	ENSG00000215699	BX511012.1	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00090	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37363_0.6	F49_0.6	TS19_0.6	M246_0.6	MS1_0.6	ENSG00000226941	RBMY1J	Homo_sapiens	I	RRM	RRM_1	1	0.70	1052_17318228	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37363_0.6	F49_0.6	TS19_0.6	M247_0.6	MS1_0.6	ENSG00000226941	RBMY1J	Homo_sapiens	I	RRM	RRM_1	1	0.70	1053_17318228	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37363_0.6	F49_0.6	TS19_0.6	M344_0.6	MS1_0.6	ENSG00000226941	RBMY1J	Homo_sapiens	I	RRM	RRM_1	1	0.70	922_19282290	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37364_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000229363	CR759782.5	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37365_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000231044	AL662849.4	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37366_0.6	F49_0.6	TS19_0.6	M022_0.6	MS2_0.6	ENSG00000231942	ENSG00000231942	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00022	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37366_0.6	F49_0.6	TS19_0.6	M023_0.6	MS2_0.6	ENSG00000231942	ENSG00000231942	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00023	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37366_0.6	F49_0.6	TS19_0.6	M271_0.6	MS1_0.6	ENSG00000231942	ENSG00000231942	Homo_sapiens	I	RRM	RRM_1	1	0.70	23_7510636	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37366_0.6	F49_0.6	TS19_0.6	M312_0.6	MS1_0.6	ENSG00000231942	ENSG00000231942	Homo_sapiens	I	RRM	RRM_1	1	0.70	560_17925491	RIP-chip	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37367_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000233801	BX005143.2	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37368_0.6	F49_0.6	TS19_0.6	M246_0.6	MS1_0.6	ENSG00000234414	RBMY1A1	Homo_sapiens	D	RRM	RRM_1	1	0.70	1052_17318228	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37368_0.6	F49_0.6	TS19_0.6	M247_0.6	MS1_0.6	ENSG00000234414	RBMY1A1	Homo_sapiens	D	RRM	RRM_1	1	0.70	1053_17318228	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37369_0.6	F49_0.6	TS19_0.6	M050_0.6	MS2_0.6	ENSG00000239306	RBM4	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00052	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37369_0.6	F49_0.6	TS19_0.6	M109_0.6	MS2_0.6	ENSG00000239306	RBM4	Homo_sapiens	D	RRM	RRM_1	1	0.70	RNCMPT00113	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37370_0.6	F49_0.6	TS19_0.6	M246_0.6	MS1_0.6	ENSG00000242389	RBMY1E	Homo_sapiens	I	RRM	RRM_1	1	0.70	1052_17318228	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37370_0.6	F49_0.6	TS19_0.6	M247_0.6	MS1_0.6	ENSG00000242389	RBMY1E	Homo_sapiens	I	RRM	RRM_1	1	0.70	1053_17318228	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37370_0.6	F49_0.6	TS19_0.6	M344_0.6	MS1_0.6	ENSG00000242389	RBMY1E	Homo_sapiens	I	RRM	RRM_1	1	0.70	922_19282290	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37371_0.6	F49_0.6	TS19_0.6	M246_0.6	MS1_0.6	ENSG00000242875	RBMY1B	Homo_sapiens	I	RRM	RRM_1	1	0.70	1052_17318228	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37371_0.6	F49_0.6	TS19_0.6	M247_0.6	MS1_0.6	ENSG00000242875	RBMY1B	Homo_sapiens	I	RRM	RRM_1	1	0.70	1053_17318228	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37371_0.6	F49_0.6	TS19_0.6	M344_0.6	MS1_0.6	ENSG00000242875	RBMY1B	Homo_sapiens	I	RRM	RRM_1	1	0.70	922_19282290	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37372_0.6	F49_0.6	TS19_0.6	M246_0.6	MS1_0.6	ENSG00000244395	RBMY1D	Homo_sapiens	I	RRM	RRM_1	1	0.70	1052_17318228	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37372_0.6	F49_0.6	TS19_0.6	M247_0.6	MS1_0.6	ENSG00000244395	RBMY1D	Homo_sapiens	I	RRM	RRM_1	1	0.70	1053_17318228	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37372_0.6	F49_0.6	TS19_0.6	M344_0.6	MS1_0.6	ENSG00000244395	RBMY1D	Homo_sapiens	I	RRM	RRM_1	1	0.70	922_19282290	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37373_0.6	F49_0.6	TS19_0.6	.	.	ENSG00000244462	RBM12	Homo_sapiens	N	RRM	RRM_1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37374_0.6	F49_0.6	TS19_0.6	M042_0.6	MS2_0.6	ENSG00000250177	ENSG00000250177	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00043	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37374_0.6	F49_0.6	TS19_0.6	M146_0.6	MS2_0.6	ENSG00000250177	ENSG00000250177	Homo_sapiens	I	RRM	RRM_1	1	0.70	RNCMPT00155	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37374_0.6	F49_0.6	TS19_0.6	M275_0.6	MS1_0.6	ENSG00000250177	ENSG00000250177	Homo_sapiens	I	RRM	RRM_1	1	0.70	24_7908267	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T37374_0.6	F49_0.6	TS19_0.6	M349_0.6	MS1_0.6	ENSG00000250177	ENSG00000250177	Homo_sapiens	I	RRM	RRM_1	1	0.70	950_7908267	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T60359_0.6	F52_0.6	TS19_0.6	.	.	ENSG00000067596	DHX8	Homo_sapiens	N	S1	S1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T60360_0.6	F52_0.6	TS19_0.6	.	.	ENSG00000068784	SRBD1	Homo_sapiens	N	S1	S1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T60361_0.6	F52_0.6	TS19_0.6	.	.	ENSG00000109111	SUPT6H	Homo_sapiens	N	S1	S1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T60362_0.6	F52_0.6	TS19_0.6	.	.	ENSG00000121766	ZCCHC17	Homo_sapiens	N	S1	S1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T60363_0.6	F52_0.6	TS19_0.6	M231_0.6	MS2_0.6	ENSG00000134001	EIF2S1	Homo_sapiens	I	S1	S1	1	0.70	RNCMPT00273	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T60364_0.6	F52_0.6	TS19_0.6	.	.	ENSG00000147586	MRPS28	Homo_sapiens	N	S1	S1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T60365_0.6	F52_0.6	TS19_0.6	.	.	ENSG00000148843	PDCD11	Homo_sapiens	N	S1	S1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T60366_0.6	F52_0.6	TS19_0.6	.	.	ENSG00000163728	TTC14	Homo_sapiens	N	S1	S1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T60367_0.6	F52_0.6	TS19_0.6	.	.	ENSG00000168002	POLR2G	Homo_sapiens	N	S1	S1	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T61784_0.6	F53_0.6	TS19_0.6	M061_0.6	MS2_0.6	ENSG00000020577	SAMD4A	Homo_sapiens	D	SAM	SAM_1	1	0.70	RNCMPT00063	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T61785_0.6	F53_0.6	TS19_0.6	M061_0.6	MS2_0.6	ENSG00000179134	SAMD4B	Homo_sapiens	I	SAM	SAM_1	1	0.70	RNCMPT00063	RNAcompete	RNA_Zoo	RNAcompete	Ray	2013	NULL	NULL	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T61860_0.6	F54_0.6	TS19_0.6	M256_0.6	MS1_0.6	ENSG00000122729	ACO1	Homo_sapiens	D	Unknown	UNKNOWN	1	0.70	1213_8021254	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T62022_0.6	F55_0.6	TS19_0.6	.	.	ENSG00000047188	YTHDC2	Homo_sapiens	N	YTH	YTH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T62023_0.6	F55_0.6	TS19_0.6	M354_0.6	MS1_0.6	ENSG00000083896	YTHDC1	Homo_sapiens	D	YTH	YTH	1	0.70	969_20167602	SELEX	RBPDB	RBPDB	Cook	2011	21036867	v1.2.1	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T62024_0.6	F55_0.6	TS19_0.6	.	.	ENSG00000149658	YTHDF1	Homo_sapiens	N	YTH	YTH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T62025_0.6	F55_0.6	TS19_0.6	.	.	ENSG00000185728	ENSG00000185728	Homo_sapiens	N	YTH	YTH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
+T62026_0.6	F55_0.6	TS19_0.6	.	.	ENSG00000198492	YTHDF2	Homo_sapiens	N	YTH	YTH	1	0.70	.	.	.	.	.	.	.	.	Ensembl	http://www.ensembl.org/	2011	Oct	26
