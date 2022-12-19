@@ -16,17 +16,22 @@ This model is trained on APEX-seq data, which measures RNA localization human HE
 
 Since viruses reproduce by hijacking human cellular machinery, we can also use this model to generate hypotheses surrounding localization of SARS-CoV-2 RNA transcripts. See analyses in the `covid19` directory for additional information, as well as relevent works below.
 
-## Environment setup
+## Installation
 
-After creating the `rnagps` environment using
+Download the codebase via `git clone` and use the following command to create the `rnagps` conda environment.
 
 ```
 conda env create -f environment.yml
 ```
 
-Install `xgboost` with
-```
-conda install -c conda-forge xgboost=0.82
+Activate the environment with `conda activate rnagps`.
+
+## Usage
+
+After installing the conda environment, you can make predictions by using the script under `bin/predict_localization.py` as follows:
+
+```bash
+python bin/predict_localization.py <5'UTR sequence> <CDS equence> <3'UTR sequence>
 ```
 
 ## Relevant works
